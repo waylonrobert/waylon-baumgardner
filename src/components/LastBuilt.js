@@ -5,7 +5,7 @@ export default function LastBuilt({ text }) {
   const data = useStaticQuery(graphql`
     {
       site {
-        buildTime(formatString: "MMMM D, YYYY")
+        buildTimeZone
       }
     }
   `);
@@ -13,7 +13,7 @@ export default function LastBuilt({ text }) {
     <div className="my-4">
       <p>
         <small>
-          {text}: {data.site.buildTime}
+          {text}: {data.site.buildTimeZone}
         </small>
       </p>
     </div>

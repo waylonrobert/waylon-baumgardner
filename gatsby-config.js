@@ -84,6 +84,13 @@ module.exports = {
         postCssPlugins: [require('tailwindcss')],
       },
     },
+    {
+      resolve: 'gatsby-plugin-buildtime-timezone',
+      options: {
+        tz: 'America/Los_Angeles',
+        format: 'MMMM D, YYYY',
+      },
+    },
     // {
     //   resolve: `gatsby-source-rss-feed`,
     //   options: {

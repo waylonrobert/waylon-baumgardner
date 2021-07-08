@@ -35,10 +35,20 @@ const WorkPage = () => (
             Esri
           </Link>
         </p>
-        <p className="font-lora font-normal italic text-text text-sm md:text-lg mb-8">
+        <p className="font-lora font-normal italic text-text text-sm md:text-lg">
           I'm currently in a senior UX role at Esri where I focus on e-commerce
           UX strategy.{' '}
         </p>
+        <p className="mb-8">
+          <Link
+            to="/work/esri"
+            title="See work I've done at Esri"
+            className="font-worksans font-semibold text-sm md:text-base"
+          >
+            See work I've done at Esri
+          </Link>
+        </p>
+
         <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
           February 2012 &mdash; September 2019
         </span>
@@ -47,10 +57,19 @@ const WorkPage = () => (
             California Baptist University
           </Link>
         </p>
-        <p className="font-lora font-normal italic text-text text-sm md:text-lg mb-8">
+        <p className="font-lora font-normal italic text-text text-sm md:text-lg">
           As Director of Web Applications Development, I led design and
           engineering for enterprise applications. Prior to that, I held various
           roles managing CBU's website design and development team.{' '}
+        </p>
+        <p className="mb-8">
+          <Link
+            to="/work/california-baptist-university"
+            title="See work I've done at CBU"
+            className="font-worksans font-semibold text-sm md:text-base"
+          >
+            See work I've done at CBU
+          </Link>
         </p>
         <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
           March 2009 &mdash; February 2012
