@@ -9,16 +9,19 @@ import TitleBlock from '../../components/TitleBlock';
 const CbuWebsiteRedesignPage = () => (
   <Layout>
     <SEO title="CBU Website Redesign Case Study – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-worksans font-semibold uppercase">
         Case Study
       </aside>
       <TitleBlock
         pageTitle="CBU Website Redesign"
         shortDescription="CBU Website Redesign was a major website redesign project for California Baptist University from 2016."
+        callToAction="View site"
+        callToActionTo="https://calbaptist.edu"
+        callToActionTitle="CBU website"
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -38,8 +41,8 @@ const CbuWebsiteRedesignPage = () => (
         </div>
       </div>
     </div>
-    <div className="mx-auto w-11/12 md:w-3/4">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
+    <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
         <h2 className="mb-4 text-3xl md:text-4xl">Overview</h2>
 
         <p>
@@ -182,7 +185,7 @@ const CbuWebsiteRedesignPage = () => (
     </div>
     <div className="w-11/12 md:w-full">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
           <div className="mx-auto">
             <figure>
               <StaticImage
@@ -209,8 +212,8 @@ const CbuWebsiteRedesignPage = () => (
             </figure>
           </div>
         </div>
-        <div className="mx-auto w-11/12 md:w-3/4">
-          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <div className="mx-auto text-center">
               <figure>
                 <StaticImage
@@ -223,7 +226,7 @@ const CbuWebsiteRedesignPage = () => (
                 </p>
               </figure>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
               <div className="mx-auto">
                 <figure>
                   <StaticImage
@@ -280,7 +283,7 @@ const CbuWebsiteRedesignPage = () => (
               designer.
             </p>
           </div>
-          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
               <li className="md:inline-block">
                 <Link

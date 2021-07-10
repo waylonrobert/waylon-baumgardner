@@ -17,7 +17,7 @@ const ListLink = (props) => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Welcome to Waylon's website" />
-    <div className="mx-auto my-12 w-11/12 md:w-3/4">
+    <div className="mx-auto my-12 w-11/12 md:w-3/4 lg:w-1/2">
       <div className="md:grid md:grid-cols-3 md:gap-4">
         <div className="md:col-span-2 ml-1 md:ml-24 md:mt-8 md:pr-8">
           <h2 className="dark:text-dark-heading-text">Hi, I'm Waylon</h2>
@@ -61,7 +61,7 @@ const IndexPage = () => (
         
       </div> */}
 
-      {/* <div className="grid w-full grid-cols-1 md:grid-cols-2  md:gap-8 md:m-12 md:mx-auto md:w-3/4">
+      {/* <div className="grid w-full grid-cols-1 md:grid-cols-2  md:gap-8 md:m-12 md:mx-auto md:w-3/4 lg:w-3/5">
       <div className="ml-1 mt-4 col-span-2 md:ml-20 md:mt-8 md:col-span-1">
         <h2 className="dark:text-dark-heading-text">Hi, I'm Waylon</h2>
         <p className="text-text text-2xl mt-5 dark:text-dark-text">

@@ -19,7 +19,7 @@ const ListLink = (props) => (
 export default function Footer() {
   return (
     <footer className="bg-white dark:bg-british-racing-green mt-8 py-10">
-      <div className="grid md:grid-cols-3 md:gap-2 mx-auto w-11/12 md:w-3/4">
+      <div className="grid md:grid-cols-3 md:gap-2 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div className="col1">
           <CurrentlyReading />
         </div>
@@ -40,7 +40,7 @@ export default function Footer() {
           </li>
         </ul>
       </div> */}
-      <div className="grid md:grid-cols-2 md:gap-2 mx-auto w-11/12 mt-4 md:w-3/4 md:mt-14">
+      <div className="grid md:grid-cols-2 md:gap-2 mx-auto w-11/12 mt-4 md:w-3/4 lg:w-3/5 md:mt-14">
         <div className="col1 order-last md:order-first">
           <span className="font-worksans text-xs leading-none text-heading-text dark:text-white align-bottom">
             Copyright &copy;{new Date().getFullYear()} Waylon Baumgardner. All

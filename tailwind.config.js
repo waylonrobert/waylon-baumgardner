@@ -1,11 +1,11 @@
+/* eslint-disable global-require */
 module.exports = {
   /* very important otherwise PurgeCSS won't work */
-  purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-    './src/**/*.jsx',
-    './src/**/*.mdx',
-  ],
+  purge: {
+    content: ['./src/**/*.html', './src/**/*.js', './src/**/*.jsx'],
+    // classes
+    safelist: ['bg-red-200', 'bg-green-200'],
+  },
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {

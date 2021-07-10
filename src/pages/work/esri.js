@@ -2,20 +2,22 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 // import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import TitleBlock from '../../components/TitleBlock';
+import EsriCartFlyoutGif from '../../images/esri-cartflyout.gif';
 
 const EsriWorkPage = () => (
   <Layout>
     <SEO title="Esri – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <TitleBlock
         pageTitle="Esri"
         shortDescription="Makers of the most powerful GIS mapping &amp; spatial analytics software."
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -36,8 +38,8 @@ const EsriWorkPage = () => (
         </div>
       </div>
     </div>
-    <div className="mx-auto w-11/12 md:w-3/4">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
+    <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
         <p>
           <a href="https://esri.com" title="Esri">
             Esri
@@ -54,13 +56,35 @@ const EsriWorkPage = () => (
           to the e-commerce store redesign project team where I worked to design
           e-commerce experiences on Esri's store redesign that launched in March
           2020. In early 2021, I was promoted to UX Strategist where my work
-          aligns e-commerce UX strategy with business strategy.
+          aligned e-commerce UX strategy with business strategy.
         </p>
         <h2 className="my-8 text-3xl md:text-4xl">Selected Work</h2>
 
         <p>Below are some selected examples from the work I've done at Esri.</p>
+        <ul id="top" className="mb-16">
+          <li>
+            <AnchorLink to="/work/esri#buypages" title="Buy pages">
+              Buy Pages
+            </AnchorLink>{' '}
+            &mdash; e-commerce transactional pages
+          </li>
+          <li>
+            <AnchorLink to="/work/esri#cartflyout" title="Cart flyout">
+              Cart Flyout
+            </AnchorLink>{' '}
+            &mdash; e-commerce module to support communication and cart changes
+          </li>
+          <li>
+            <AnchorLink to="/work/esri#storelanding" title="Store Landing Page">
+              Store Landing Page
+            </AnchorLink>{' '}
+            &mdash; Esri online store landing page
+          </li>
+        </ul>
 
-        <h3 className="my-4 text-2xl md:text-3xl">Buy Pages</h3>
+        <h3 id="buypages" className="my-4 text-2xl md:text-3xl">
+          Buy Pages
+        </h3>
         <p>
           Buy pages are the primary starting point to kick-off the buyer's
           transactional journey from evaluating product information to checking
@@ -68,16 +92,17 @@ const EsriWorkPage = () => (
         </p>
         <p>
           For the initial launch, I designed several different buy page variants
-          to accommodate different product types. Because some of Esri's
-          software is bundled and some of it is sold individually, it was
-          important to have different variants to accommodate these use cases.
+          to accommodate different product types and product relationships,
+          including cross-sell/up-sell opportunities where appropriate. Because
+          some of Esri's software is bundled and some of it's sold individually,
+          it was important to have different variants to accommodate them.
         </p>
       </div>
     </div>
 
     <h4 className="my-8">Wireframes</h4>
     <div className="mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
         <div className="mx-auto">
           <figure>
             <StaticImage
@@ -110,7 +135,7 @@ const EsriWorkPage = () => (
         </div>
       </div>
       <h4 className="my-8">Completed Design</h4>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
         <div className="mx-auto">
           <figure>
             <StaticImage
@@ -122,6 +147,13 @@ const EsriWorkPage = () => (
             <p className="caption">
               Completed buy page UI for primary products with cross-sell and/or
               up-sell
+              <br />
+              <a
+                href="https://www.esri.com/en-us/arcgis/products/arcgis-navigator/buy"
+                title="ArcGIS Navigator buy page"
+              >
+                View live page
+              </a>
             </p>
           </figure>
         </div>
@@ -138,24 +170,35 @@ const EsriWorkPage = () => (
               up-sell
               <br />
               (tabbed interface)
+              <br />
+              <a
+                href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/buy"
+                title="ArcGIS Pro buy page"
+              >
+                View live page
+              </a>
             </p>
           </figure>
         </div>
       </div>
 
-      <div className="mx-auto w-11/12 md:w-3/4">
-        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-          <h3 className="my-4 text-2xl md:text-3xl">Cart Flyout</h3>
+      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
+          <hr />
+          <h3 id="cartflyout" className="mt-16 mb-4 text-2xl md:text-3xl">
+            Cart Flyout
+          </h3>
           <p>
             A common pattern found in many e-commerce experiences is a modal or
-            flyout that a user sees after they add a product to cart (and
-            typically one step before starting checkout).
+            flyout that a user sees after they add a product to cart, and is
+            typically one step before starting checkout.
           </p>
           <p>
             As part of a longer term e-commerce strategy, Esri needed a way to
-            communicate additional information to users before checkout related
-            to specific products while also allowing users to tak actions ahead
-            of checkout.
+            both communicate additional information and allow users to make
+            changes before starting checkout for specific products, including
+            product bundles that support customizing the quantity of products
+            within the bundle.
           </p>
           <p>
             I designed a modular component with multiple use cases such as
@@ -209,7 +252,7 @@ const EsriWorkPage = () => (
         </div>
       </div>
       <div className="w-11/12 md:w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
           <div className="mx-auto">
             <figure>
               <StaticImage
@@ -237,20 +280,37 @@ const EsriWorkPage = () => (
             </figure>
           </div>
         </div>
+        <div className="mx-auto w-1/2">
+          <figure>
+            <img
+              className="text-center"
+              src={EsriCartFlyoutGif}
+              alt="Cart flyout animted GIF"
+            />
+          </figure>
+          <p className="mt-1 mb-4 text-sm font-worksans font-medium text-heading-text dark:text-dark-heading-text text-center">
+            Cart flyout &mdash; video
+          </p>
+        </div>
       </div>
-      <div className="mx-auto w-11/12 md:w-3/4">
-        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-          <h3 className="my-4 text-2xl md:text-3xl">Store Landing Page</h3>
+      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
+          <hr />
+          <h3 id="storelanding" className="mt-16 mb-4 text-2xl md:text-3xl">
+            Store Landing Page
+          </h3>
           <p>
             One of the challenges with selling lots of different products is
-            determining how to get a new buyer started and engaged with their
-            first visit.
+            determining how to get a new buyer started and educated on what's
+            for sale and how to buy it.
           </p>
           <p>
             Recognizing that some of Esri's customers will start their buying
             journey on the Esri Store landing page, it was important that the
-            page have structure and guiding points for new buyers, effectively
-            answering the question for new users of where to start.
+            page have structure and guiding points for new buyers. Esri's
+            product portfolio is complex, and the product taxonomy organization
+            and hierarchy is important to illustrate the different product
+            types.
           </p>
           <p>
             Based on analytics of the existing store as well as feedback
@@ -281,12 +341,21 @@ const EsriWorkPage = () => (
               alt="Store landing page UI"
               width={600}
             />
-            <p className="caption">Store landing page UI</p>
+            <p className="caption">
+              Store landing page UI
+              <br />
+              <a
+                href="https://www.esri.com/en-us/store/"
+                title="Esri Online Store"
+              >
+                View live page
+              </a>
+            </p>
           </figure>
         </div>
       </div>
     </div>
-    <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+    <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
       <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
         <li className="md:inline-block">
           <Link className="next-steps-left" to="/work" title="Back to my work">

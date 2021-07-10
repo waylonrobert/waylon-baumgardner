@@ -9,19 +9,19 @@ import TitleBlock from '../../components/TitleBlock';
 const ArousalArchitecturePage = () => (
   <Layout>
     <SEO title="Arousal Architecture™️ Assessment Case Study – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-worksans font-semibold uppercase">
         Case Study
       </aside>
       <TitleBlock
-        pageTitle="Arousal Architecture™️ Assessment"
-        shortDescription="Arousal Architecture™️ Assessment is a website that helps Kayna Cassard counsel her clients."
+        pageTitle="Arousal Architecture&trade; Assessment"
+        shortDescription="Arousal Architecture&trade; Assessment is a website that helps Kayna Cassard counsel her clients."
         callToAction="View site"
         callToActionTo="https://arousalarchitecture.com"
         callToActionTitle="Arousal Architecture™️ Assessment website"
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -41,8 +41,8 @@ const ArousalArchitecturePage = () => (
         </div>
       </div>
     </div>
-    <div className="mx-auto w-11/12 md:w-3/4">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
+    <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
         <h2 className="mb-4 text-3xl md:text-4xl">Overview</h2>
 
         <p>
@@ -65,7 +65,7 @@ const ArousalArchitecturePage = () => (
           </a>
           , a licensed Marriage and Family Therapist, Sex Therapist, Pelvic Pain
           Relief Expert and Sexuality Specialist, approached me about building
-          an online version of her Arousal Architecture™️ Assessment. The
+          an online version of her Arousal Architecture&trade; Assessment. The
           assessment is one of many tools she uses to help her clients learn how
           to liberate their sensuality, connect more deeply with themselves and
           their partners, and ignite passion in all areas of their lives. At the
@@ -151,7 +151,7 @@ const ArousalArchitecturePage = () => (
     </div>
     <div className="w-11/12 md:w-full">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12 lg:w-1/2">
           <div className="mx-auto">
             <figure>
               <StaticImage
@@ -191,7 +191,7 @@ const ArousalArchitecturePage = () => (
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12 lg:w-1/2">
           <div className="mx-auto">
             <figure>
               <StaticImage
@@ -200,7 +200,7 @@ const ArousalArchitecturePage = () => (
                 alt="Arousal Architecture homepage UI"
                 width={600}
               />
-              <p className="caption">Arousal Architecture™️ homepage UI</p>
+              <p className="caption">Arousal Architecture&trade; homepage UI</p>
             </figure>
           </div>
           <div className="mx-auto">
@@ -210,7 +210,9 @@ const ArousalArchitecturePage = () => (
                 alt="Arousal Architecture question page UI"
                 width={600}
               />
-              <p className="caption">Arousal Architecture™️ question page UI</p>
+              <p className="caption">
+                Arousal Architecture&trade; question page UI
+              </p>
             </figure>
           </div>
           <div className="mx-auto">
@@ -220,13 +222,15 @@ const ArousalArchitecturePage = () => (
                 alt="Arousal Architecture results page UI"
                 width={600}
               />
-              <p className="caption">Arousal Architecture™️ results page UI</p>
+              <p className="caption">
+                Arousal Architecture&trade; results page UI
+              </p>
             </figure>
           </div>
         </div>
 
-        <div className="mx-auto w-11/12 md:w-3/4">
-          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <h3 id="development" className="my-4 text-2xl md:text-3xl">
               Development
             </h3>
@@ -256,7 +260,7 @@ const ArousalArchitecturePage = () => (
               improve user happiness.
             </p>
           </div>
-          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
               <li className="md:inline-block">
                 <Link
@@ -270,9 +274,9 @@ const ArousalArchitecturePage = () => (
               <li className="mt-4 md:mt-0 md:inline-block md:ml-16">
                 <a
                   href="https://arousalarchitecture.com"
-                  title="View Arousal Architecture™️ Assessment website"
+                  title="View Arousal Architecture&trade; Assessment website"
                 >
-                  View Arousal Architecture™️ Assessment
+                  View Arousal Architecture&trade; Assessment
                 </a>
               </li>
             </ul>

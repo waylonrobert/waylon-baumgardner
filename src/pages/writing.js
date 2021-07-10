@@ -42,12 +42,12 @@ const WritingPage = () => {
         title="Writing"
         description="Some of my thoughts on design, technology, and life."
       />
-      <div className="m-12 mx-auto w-11/12 md:w-3/4">
+      <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <TitleBlock
           pageTitle="Writing"
           shortDescription="Some of my thoughts on design, technology, and life."
         />
-        <div className="posts mx-auto w-11/12 md:w-3/4 my-2 md:my-8">
+        <div className="posts mx-auto w-11/12 md:w-3/4 lg:w-3/5 my-2 md:my-8">
           {sortedGroups.map((posts) => (
             <div key={posts.fieldValue}>
               <h2 className="text-3xl md:text-4xl text-text text-center my-2 md:my-6">

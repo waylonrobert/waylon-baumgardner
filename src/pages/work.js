@@ -20,12 +20,12 @@ import Skills from '../components/Skills';
 const WorkPage = () => (
   <Layout>
     <SEO title="My work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <TitleBlock
         pageTitle="My work"
         shortDescription="I work on a variety of projects that combine elements of design, development, and content to form engaging user experiences."
       />
-      <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
+      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 mt-8 mb-12">
         <MiniTitleBlock title="Where I've Worked" />
         <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
           September 2019 &mdash; present
@@ -84,10 +84,10 @@ const WorkPage = () => (
         </p>
       </div>
 
-      <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
+      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 mt-8 mb-12">
         <MiniTitleBlock title="Selected Case Studies" />
       </div>
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <Link
             to="/work/how-much-oxalate"
@@ -110,13 +110,13 @@ const WorkPage = () => (
               src="../images/arousal-architecture-thumb.jpg"
               alt="Screenshot of Arousal Architecture Assessment website"
             />
-            <WorkCard projectName="Arousal Architecture™️" />
+            <WorkCard projectName="Arousal Architecture&trade;" />
           </Link>
           <Skills skills="UX • UI • DEVELOPMENT" />
         </div>
       </div>
 
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <Link
             to="/work/cbu-website-redesign"

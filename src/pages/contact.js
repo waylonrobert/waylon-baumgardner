@@ -6,13 +6,13 @@ import TitleBlock from '../components/TitleBlock';
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact me" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <TitleBlock
         pageTitle="Contact me"
         shortDescription="Interested in connecting with me about a new project or something else?
         Contact me via the form below."
       />
-      <div className="mx-auto w-11/12 md:w-3/4 my-4 md:my-8">
+      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 my-4 md:my-8">
         <form
           name="contact"
           method="POST"

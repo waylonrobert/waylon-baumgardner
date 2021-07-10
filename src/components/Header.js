@@ -32,16 +32,16 @@ const ListLink = ({ className, children, ...props }) => (
 
 export default function Header() {
   return (
-    <header className="grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-1 col-span-3 pt-8 md:pt-12 md:mx-auto w-full md:w-3/4">
+    <header className="grid grid-cols-1 md:grid-cols-2 md:gap-2 gap-1 col-span-3 pt-8 md:pt-12 md:mx-auto w-full md:w-3/4 lg:w-3/5">
       <Link
         to="/"
         title="Waylon Baumgardner"
         className="text-center md:text-left"
       >
         <Logo
-          classNameAvatar="inline-flex dark:hidden h-3/4"
-          classNameDarkAvatar="hidden fill-current dark:inline-flex h-3/4"
-          classNameName="inline-flex ml-4 text-heading-text dark:text-dark-heading-text fill-current w-3/4 md:w-none"
+          classNameAvatar="inline-flex dark:hidden h-1/2 md:h-3/4"
+          classNameDarkAvatar="hidden fill-current dark:inline-flex h-1/2 md:h-3/4"
+          classNameName="inline-flex ml-4 text-heading-text dark:text-dark-heading-text fill-current"
         />
       </Link>
       <nav className="text-center md:text-none md:ml-1">

@@ -10,7 +10,7 @@ import TitleBlock from '../../components/TitleBlock';
 const HowMuchOxalateWorkPage = () => (
   <Layout>
     <SEO title="How Much Oxalate Case Study – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
       <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-worksans font-semibold uppercase">
         Case Study
       </aside>
@@ -22,7 +22,7 @@ const HowMuchOxalateWorkPage = () => (
         callToActionTitle="How Much Oxalate? website"
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -42,8 +42,8 @@ const HowMuchOxalateWorkPage = () => (
         </div>
       </div>
     </div>
-    <div className="mx-auto w-11/12 md:w-3/4">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
+    <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
         <h2 className="mb-4 text-3xl md:text-4xl">Overview</h2>
 
         <p>
@@ -242,8 +242,8 @@ const HowMuchOxalateWorkPage = () => (
             </figure>{' '}
           </div>
         </div>
-        <div className="mx-auto w-11/12 md:w-3/4">
-          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <h3 id="content" className="my-4 text-2xl md:text-3xl">
               Content
             </h3>
@@ -280,7 +280,7 @@ const HowMuchOxalateWorkPage = () => (
               accordingly.
             </p>
           </div>
-          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
             <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
               <li className="md:inline-block">
                 <Link
