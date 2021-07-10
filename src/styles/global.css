@@ -81,6 +81,9 @@
   .article ul li, .case-study-narrative ul li {
     @apply text-text dark:text-dark-text ml-4 p-2;
   }
+  .notice {
+    @apply p-4 bg-red-200 dark:bg-green-200 text-text text-base text-center font-worksans;
+  }
   /* .article p, .case-study p {
       @apply pb-4 leading-relaxed;
   } */
