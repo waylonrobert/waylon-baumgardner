@@ -62,7 +62,9 @@
   .work a p:hover::after,
   .listening p a:hover::after,
   .posts p a:hover::after,
-  article ul li a:hover::after {
+  article ul li a:hover::after,
+  button.cta:hover::after,
+  a.link p:hover::after {
       content: " →";
   }
   .next-steps-left:hover::before {
