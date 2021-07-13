@@ -25,9 +25,33 @@ const WorkPage = () => (
         pageTitle="My work"
         shortDescription="I work on a variety of projects that combine elements of design, development, and content to form engaging user experiences."
       />
+      {/* <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12"> */}
       <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
         <MiniTitleBlock title="Where I've Worked" />
-        <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
+      </div>
+      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+        <div>
+          <Link
+            to="/work/esri"
+            className="text-heading-text dark:text-dark-heading-text"
+          >
+            <StaticImage src="../images/esri-thumb.jpg" alt="Esri logo" />
+            <WorkCard projectName="Esri" />
+          </Link>
+          <Skills skills="UX" />
+        </div>
+        <div>
+          <Link
+            to="/work/california-baptist-university"
+            className="text-heading-text dark:text-dark-heading-text"
+          >
+            <StaticImage src="../images/cbu-thumb.jpg" alt="CBU logo" />
+            <WorkCard projectName="California Baptist University" />
+          </Link>
+          <Skills skills="UX • UI • CONTENT • DEVELOPMENT" />
+        </div>
+      </div>
+      {/* <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
           September 2019 &mdash; present
         </span>
         <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
@@ -82,10 +106,10 @@ const WorkPage = () => (
           Affairs. Prior to that, I was a Web Developer that built websites for
           the Division of Finance and Business Operations.
         </p>
-      </div>
+      </div> */}
 
       <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
-        <MiniTitleBlock title="Selected Case Studies" />
+        <MiniTitleBlock title="Additional Projects" />
       </div>
       <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
@@ -144,15 +168,6 @@ const WorkPage = () => (
           <Skills skills="UX • UI" />
         </div>
       </div>
-
-      {/* <div className="mx-auto w-3/4 my-8 mt-12">
-        <MiniTitleBlock title="Clients" />
-        <ul>
-          <li>That Newfoundland Place</li>
-          <li>Loma Linda University</li>
-          <li>Southern California Public Radio</li>
-        </ul>
-      </div> */}
     </div>
   </Layout>
 );
