@@ -8,18 +8,19 @@ import WorkCard from './WorkCard';
 
 export default function RecentWork() {
   return (
-    <div>
+    <div className="mt-6">
       <Link
-        to="/work/arousal-architecture"
-        className="text-heading-text dark:text-dark-text"
+        to="/work/esri"
+        className="link text-heading-text dark:text-dark-heading-text underline"
       >
         <StaticImage
-          src="../images/screencapture-arousalarchitecture-2021-02-27-23_19_40 1.png"
-          alt="Screenshot"
+          src="../images/esri-thumb.jpg"
+          alt="Esri logo"
+          width={350}
         />
-        <WorkCard projectName="Arousal Architecture" />
+        <WorkCard projectName="Esri" />
       </Link>
-      <Skills skills="UX • UI • DEV" />
+      <Skills skills="UX" />
     </div>
   );
 }
