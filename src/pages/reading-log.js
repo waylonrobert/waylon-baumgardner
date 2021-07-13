@@ -42,12 +42,12 @@ const ReadingLogPage = () => {
   return (
     <Layout>
       <SEO title="Reading log" />
-      <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
         <TitleBlock
           pageTitle="Reading log"
           shortDescription="Below is a log of books I've read, organized by year."
         />
-        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 my-4 md:my-8">
+        <div className="mx-auto w-11/12 md:w-3/4 my-4 md:my-8">
           {sortedGroups.map((books) => (
             <div className="mb-8">
               <h2

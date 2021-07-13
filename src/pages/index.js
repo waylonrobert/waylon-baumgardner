@@ -17,7 +17,7 @@ const ListLink = (props) => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Welcome to Waylon's website" />
-    <div className="mx-auto my-12 w-11/12 md:w-3/4 lg:w-1/2">
+    <div className="mx-auto my-12 w-11/12 md:w-3/4 lg:w-7/12">
       <div className="md:grid md:grid-cols-3 md:gap-4">
         <div className="md:col-span-2 ml-1 md:ml-24 md:mt-8 md:pr-8">
           <h2 className="dark:text-dark-heading-text">Hi, I'm Waylon</h2>

@@ -10,13 +10,13 @@ import WorkCard from '../../components/WorkCard';
 const CbuWorkPage = () => (
   <Layout>
     <SEO title="California Baptist University – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
       <TitleBlock
         pageTitle="California Baptist University"
         shortDescription="One of the top private Christian colleges and universities in Southern California that confers associate's, bachelor's, master's, doctoral and credential degrees."
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -37,7 +37,7 @@ const CbuWorkPage = () => (
           </p>
         </div>
       </div>
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
         <p>
           <a
             href="https://calbaptist.edu"
@@ -71,7 +71,7 @@ const CbuWorkPage = () => (
         </p>
       </div>
 
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
           <Link
             to="/work/cbu-website-redesign"
@@ -98,8 +98,8 @@ const CbuWorkPage = () => (
         </div>
       </div>
 
-      <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
-        <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
+      <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+        <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
           <li className="md:inline-block">
             <Link
               className="next-steps-left"
