@@ -14,13 +14,13 @@ const BlogPostPage = ({ data }) => {
         description={post.frontmatter.description}
       />
       <article>
-        <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+        <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
           <TitleBlock
             postDate={post.frontmatter.date}
             pageTitle={post.frontmatter.title}
             shortDescriptionAlt={post.frontmatter.intro}
           />
-          <div className="article mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+          <div className="article mx-auto w-11/12 md:w-3/4">
             <MDXRenderer>{post.body}</MDXRenderer>
           </div>
         </div>

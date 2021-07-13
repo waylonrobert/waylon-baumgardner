@@ -32,14 +32,14 @@ const ListeningLogPage = () => {
   return (
     <Layout>
       <SEO title="Listening log" />
-      <div className="listening m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="listening m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
         <TitleBlock
           pageTitle="Listening log"
           shortDescription="Below are the last 10 songs I listened to on Spotify. This list
             refreshes once every day."
         />
 
-        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 my-8">
+        <div className="mx-auto w-11/12 md:w-3/4 my-8">
           {data.allSpotifyRecentTrack.nodes.map((tracks) => (
             <div className="mb-8" key={tracks.track.name}>
               <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">

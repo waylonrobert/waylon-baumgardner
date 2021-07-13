@@ -8,13 +8,13 @@ export default function About() {
   return (
     <Layout>
       <SEO title="About" />
-      <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
         <TitleBlock
           pageTitle="About me"
           shortDescription="About pages are always the hardest, right?"
         />
 
-        <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5 my-8">
+        <div className="mx-auto w-11/12 md:w-3/4 my-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto w-11/12 md:w-full my-8">
             <div>
               <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">

@@ -11,13 +11,13 @@ import EsriCartFlyoutGif from '../../images/esri-cartflyout.gif';
 const EsriWorkPage = () => (
   <Layout>
     <SEO title="Esri – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+    <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
       <TitleBlock
         pageTitle="Esri"
         shortDescription="Makers of the most powerful GIS mapping &amp; spatial analytics software."
       />
 
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
           <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
             My role
@@ -38,8 +38,8 @@ const EsriWorkPage = () => (
         </div>
       </div>
     </div>
-    <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4 lg:w-3/5">
+    <div className="mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
         <p>
           <a href="https://esri.com" title="Esri">
             Esri
@@ -182,8 +182,8 @@ const EsriWorkPage = () => (
         </div>
       </div>
 
-      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
-        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="mx-auto w-11/12 md:w-3/4">
+        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 2xl:w-1/2">
           <hr />
           <h3 id="cartflyout" className="mt-16 mb-4 text-2xl md:text-3xl">
             Cart Flyout
@@ -252,7 +252,7 @@ const EsriWorkPage = () => (
         </div>
       </div>
       <div className="w-11/12 md:w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-8/12">
           <div className="mx-auto">
             <figure>
               <StaticImage
@@ -293,8 +293,8 @@ const EsriWorkPage = () => (
           </p>
         </div>
       </div>
-      <div className="mx-auto w-11/12 md:w-3/4 lg:w-3/5">
-        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
+      <div className="mx-auto w-11/12 md:w-3/4">
+        <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 2xl:w-1/2">
           <hr />
           <h3 id="storelanding" className="mt-16 mb-4 text-2xl md:text-3xl">
             Store Landing Page
@@ -355,8 +355,8 @@ const EsriWorkPage = () => (
         </div>
       </div>
     </div>
-    <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4 lg:w-3/5">
-      <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold">
+    <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+      <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
         <li className="md:inline-block">
           <Link className="next-steps-left" to="/work" title="Back to my work">
             Back to my work
