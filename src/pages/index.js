@@ -1,7 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import RecentWriting from '../components/RecentWriting';
@@ -11,7 +10,7 @@ const ButtonLink = (props) => (
   <Link to={props.to}>
     <button
       type="button"
-      className="cta bg-heading-text dark:bg-dark-heading-text text-white py-2 px-4 mt-2 text-sm font-worksans uppercase"
+      className="cta bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
     >
       {props.children}
     </button>

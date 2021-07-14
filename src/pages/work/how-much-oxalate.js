@@ -291,14 +291,6 @@ const HowMuchOxalateWorkPage = () => (
                   Back to my work
                 </Link>
               </li>
-              <li className="mt-4 md:mt-0 md:inline-block md:ml-16">
-                <a
-                  href="https://howmuchoxalate.com"
-                  title="View How Much Oxalate website"
-                >
-                  View How Much Oxalate
-                </a>
-              </li>
             </ul>
           </div>
         </div>

@@ -27,9 +27,7 @@
   p a, .article ul li a, .case-study-narrative ul li a, .about-interests li a{
       @apply text-heading-text dark:text-dark-heading-text underline;
   }
-  a:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href^='#']):not([href^='/']):hover::after {
-      content: " ↗";
-  }
+ 
   ul {
       @apply list-disc list-inside;
   }
@@ -49,6 +47,9 @@
   blockquote {
     @apply text-base text-text dark:text-dark-text my-4 md:my-0;
   }
+  aside.notice {
+    @apply p-4 bg-red-200 dark:bg-green-200 text-text text-base text-center font-worksans;
+  }
   .active {
     @apply text-heading-text dark:text-dark-heading-text font-semibold;
   }
@@ -57,19 +58,23 @@
   .next-steps a {
       @apply underline;
   }
-  p a:hover::after,
+  p a:not([class*='alt']):hover::after,
   .ctas a:hover::after,
   .work a p:hover::after,
   .listening p a:hover::after,
   .posts p a:hover::after,
   article ul li a:hover::after,
-  button.cta:hover::after,
+  button:not([type*='submit']):not([aria-label*='theme-switch']):hover::after,
   a.link p:hover::after {
       content: " →";
   }
   .next-steps-left:hover::before {
     content: "← "
   }
+  a:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='arousalarchitecture.com']):not([href*='howmuchoxalate.com']):not([href^='#']):not([href^='/']):hover::after,
+  button:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([type*='submit']):not([class*='cta']):not([href^='#']):not([href^='/']):not([aria-label*='theme-switch']):hover::after {
+    content: " ↗";
+}
   .article h2 {
       @apply my-4;
   }
@@ -83,167 +88,7 @@
   .article ul li, .case-study-narrative ul li {
     @apply text-text dark:text-dark-text ml-4 p-2;
   }
-  .notice {
-    @apply p-4 bg-red-200 dark:bg-green-200 text-text text-base text-center font-worksans;
-  }
-  /* .article p, .case-study p {
-      @apply pb-4 leading-relaxed;
-  } */
 }
 
-/* @layer base {
-    html {
-      @apply bg-bg dark:bg-dark-bg;
-    }
-    body {
-        @apply font-lora text-xl bg-bg dark:bg-dark-bg;
-    }
-    h1 {
-      @apply mb-4 text-text dark:text-white text-5xl font-worksans font-extrabold;
-    }
-    h2 {
-        @apply text-heading-text dark:text-dark-heading-text text-4xl font-worksans font-extrabold;
-    }
-    p {
-      @apply text-text dark:text-dark-text;
-    }
-    p a {
-        @apply text-heading-text dark:text-dark-heading-text underline;
-    }
-  
-    a:not([href*='waylonbaumgardner.com']):not([href^='#']):not([href^='/']):hover::after {
-        content: " ↗";
-    }
-    ul {
-        @apply list-disc list-inside;
-    }
-    ul li::marker {
-        @apply text-heading-text dark:text-dark-heading-text;
-    }
-    ul.ctas li {
-        @apply text-heading-text dark:text-dark-heading-text text-2xl font-worksans font-semibold my-4;
-    }
-    nav a:hover {
-        @apply text-heading-text dark:text-dark-heading-text;
-    }
-    .active {
-      @apply text-heading-text dark:text-dark-heading-text font-semibold;
-    }
-    .work a,
-    .listening a {
-        @apply underline;
-    }
-    p a:hover::after,
-    .ctas a:hover::after,
-    .work a p:hover::after,
-    .listening p a:hover::after,
-    .posts p a:hover::after {
-        content: " →";
-    }
-    .article h2 {
-        @apply my-4;
-    }
-    .article p, .case-study p {
-        @apply pb-4 leading-relaxed;
-    }
-} */
-
-/* zzzzzzzzz */
-
-/* .link-test::after {
-    background-image: url("../images/pattern.png");
-    background-image: url(../images/pattern.svg);
-    background-position: 5 1.4em;
-    background-size: 15px 9px;
-    color: #e8665f;
-    background-repeat: repeat-x;
-    text-decoration: none;
-			padding-bottom: 4px;
-    background: url(../images/pattern.svg) bottom repeat-x;
-  } */
-
-  /* .link-test:after {
-    opacity: 1;
-    content: "";
-    position: absolute;
-    bottom: 1%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1rem;
-    background-image: url("data:image/svg+xml,%3Csvg width='53' height='4' viewBox='0 0 53 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M51.9 3C49 3 49 1 46.2 1c-2.8 0-2.8 2-5.7 2-2.8 0-2.8-2-5.7-2C32 1 32 3 29.1 3c-2.8 0-2.8-2-5.7-2-2.8 0-2.8 2-5.6 2S15 1 12.1 1C9.5 1 9.5 3 6.7 3 3.8 3 3.8 1 1 1' stroke='%23404040' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='52.9' height='4' fill='%23404040'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: opacity .3s ease-out;
-  } */
-
-/* .link-test2:after{  opacity: 1;
-content: "";
-position: absolute;
-bottom: 1%;
-left: 43.5%;
-right: 0;
-width: 50%;
-height: 1rem;
-background-image: url("data:image/svg+xml,%3Csvg width='53' height='4' viewBox='0 0 53 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M51.9 3C49 3 49 1 46.2 1c-2.8 0-2.8 2-5.7 2-2.8 0-2.8-2-5.7-2C32 1 32 3 29.1 3c-2.8 0-2.8-2-5.7-2-2.8 0-2.8 2-5.6 2S15 1 12.1 1C9.5 1 9.5 3 6.7 3 3.8 3 3.8 1 1 1' stroke='%23404040' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='52.9' height='4' fill='%23404040'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
-background-repeat: no-repeat;
-background-position: center;
-transition: opacity .3s ease-out;
-top: 24%;} */
-
-/* .link-test {
-    position: relative;
-  } */
-
-  /* a.link-test:hover::after {
-    content: "^";
-      text-align:center;
-    position: absolute;
-    bottom: -0.6rem;
-    content: "";
-    position: absolute;
-    bottom: -1.05rem;
-    left: -0.5rem;
-    right: -0.5rem;
-    height: 0.4rem;
-    z-index: -1; 
-    background-image: url('../images/chevron.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-  
-/* a.link-test.active:after {
-      
-      content: "\21ad";
-      text-align:center;
-    position: absolute;
-    bottom: -0.6rem;
-    left: -0.5rem;
-    right: -0.5rem;
-    height: 0.4rem;
-    z-index: -1; 
-    background-image: url('../images/chevron.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
-  /* .caret {
-    background-image: url('../images/caret.svg');
-    background-repeat: repeat-x;
-    min-height: 10px;
-  }
-
-  .caret-small {
-    background-image: url('../images/caret-small.svg');
-    background-repeat: repeat-x;
-    min-height: 8px;
-  }
-
-  .squiggie {
-    background-image: url('../images/squiggie.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1em;
-  } */
 
   

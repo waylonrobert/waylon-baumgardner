@@ -41,7 +41,7 @@ const EsriWorkPage = () => (
     <div className="mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
       <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
         <p>
-          <a href="https://esri.com" title="Esri">
+          <a className="alt" href="https://esri.com" title="Esri">
             Esri
           </a>{' '}
           is one of the most established and sophisticated makers of GIS
@@ -149,10 +149,16 @@ const EsriWorkPage = () => (
               up-sell
               <br />
               <a
+                className="alt"
                 href="https://www.esri.com/en-us/arcgis/products/arcgis-navigator/buy"
                 title="ArcGIS Navigator buy page"
               >
-                View live page
+                <button
+                  type="button"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                >
+                  View Live Page
+                </button>
               </a>
             </p>
           </figure>
@@ -172,10 +178,16 @@ const EsriWorkPage = () => (
               (tabbed interface)
               <br />
               <a
+                className="alt"
                 href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/buy"
                 title="ArcGIS Pro buy page"
               >
-                View live page
+                <button
+                  type="button"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                >
+                  View Live Page
+                </button>
               </a>
             </p>
           </figure>
@@ -283,13 +295,28 @@ const EsriWorkPage = () => (
         <div className="mx-auto w-1/2">
           <figure>
             <img
-              className="text-center"
+              className="text-center mb-2"
               src={EsriCartFlyoutGif}
               alt="Cart flyout animted GIF"
             />
+            <p className="caption mt-2 mb-2 text-sm font-worksans font-medium text-heading-text dark:text-dark-heading-text text-center">
+              Cart flyout &mdash; animated GIF
+            </p>
           </figure>
-          <p className="mt-1 mb-4 text-sm font-worksans font-medium text-heading-text dark:text-dark-heading-text text-center">
-            Cart flyout &mdash; video
+
+          <p className="text-center">
+            <a
+              className="alt"
+              href="https://www.esri.com/en-us/landing-page/corporate-programs/2020/saas-gis-for-local-government/buy"
+              title="SaaS for GIS Local Government Bundle page"
+            >
+              <button
+                type="button"
+                className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+              >
+                View Example Live Page
+              </button>
+            </a>
           </p>
         </div>
       </div>
@@ -345,24 +372,34 @@ const EsriWorkPage = () => (
               Store landing page UI
               <br />
               <a
+                className="alt"
                 href="https://www.esri.com/en-us/store/"
                 title="Esri Online Store"
               >
-                View live page
+                <button
+                  type="button"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                >
+                  View Live Page
+                </button>
               </a>
             </p>
           </figure>
         </div>
+        <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
+          <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
+            <li className="md:inline-block">
+              <Link
+                className="next-steps-left"
+                to="/work"
+                title="Back to my work"
+              >
+                Back to my work
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-      <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
-        <li className="md:inline-block">
-          <Link className="next-steps-left" to="/work" title="Back to my work">
-            Back to my work
-          </Link>
-        </li>
-      </ul>
     </div>
   </Layout>
 );
