@@ -41,7 +41,7 @@ const EsriWorkPage = () => (
     <div className="mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
       <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
         <p>
-          <a href="https://esri.com" title="Esri">
+          <a className="alt" href="https://esri.com" title="Esri">
             Esri
           </a>{' '}
           is one of the most established and sophisticated makers of GIS

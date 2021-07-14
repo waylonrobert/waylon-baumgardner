@@ -64,7 +64,7 @@
   .listening p a:hover::after,
   .posts p a:hover::after,
   article ul li a:hover::after,
-  button:hover::after,
+  button:not([type*='submit']):not([aria-label*='theme-switch']):hover::after,
   a.link p:hover::after {
       content: " →";
   }
