@@ -18,7 +18,7 @@ const CbuWebsiteRedesignPage = () => (
         shortDescription="CBU Website Redesign was a major website redesign project for California Baptist University from 2016."
         callToAction="View site"
         callToActionTo="https://calbaptist.edu"
-        callToActionTitle="CBU website"
+        callToActionToTitle="CBU website"
       />
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">

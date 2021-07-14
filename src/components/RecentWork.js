@@ -8,7 +8,7 @@ import WorkCard from './WorkCard';
 
 export default function RecentWork() {
   return (
-    <div className="mt-6">
+    <div>
       <Link
         to="/work/esri"
         className="link text-heading-text dark:text-dark-heading-text underline"
@@ -20,7 +20,9 @@ export default function RecentWork() {
         />
         <WorkCard projectName="Esri" />
       </Link>
-      <Skills skills="UX" />
+      <p className="skills text-text dark:text-mint text-sm font-worksans font-normal uppercase no-underline">
+        UX
+      </p>
     </div>
   );
 }

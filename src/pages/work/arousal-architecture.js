@@ -271,14 +271,6 @@ const ArousalArchitecturePage = () => (
                   Back to my work
                 </Link>
               </li>
-              <li className="mt-4 md:mt-0 md:inline-block md:ml-16">
-                <a
-                  href="https://arousalarchitecture.com"
-                  title="View Arousal Architecture&trade; Assessment website"
-                >
-                  View Arousal Architecture&trade; Assessment
-                </a>
-              </li>
             </ul>
           </div>
         </div>

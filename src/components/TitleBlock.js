@@ -25,8 +25,17 @@ export default function TitleBlock(props) {
       ) : null}
       {props.callToAction ? (
         <p className="title-cta text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold my-2">
-          <a href={props.callToActionTo} title={props.callToActionToTitle}>
-            {props.callToAction}
+          <a
+            className="alt"
+            href={props.callToActionTo}
+            title={props.callToActionToTitle}
+          >
+            <button
+              type="button"
+              className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-2 text-sm font-worksans uppercase"
+            >
+              {props.callToAction}
+            </button>
           </a>
         </p>
       ) : null}
