@@ -10,10 +10,10 @@ export default function CurrentlyReading() {
         Currently Reading
       </h2>
       <p className="title capitalize md:leading-tight font-lora font-medium text-text dark:text-mint text-sm md:text-lg mt-2">
-        The Guest List
+        Dune
       </p>
       <p className="author font-lora italic text-xs md:text-sm dark:text-white ">
-        Lucy Foley
+        Frank Herbert
       </p>
       <p className="link font-worksans text-heading-text font-semibold text-xs mt-2">
         <Link
