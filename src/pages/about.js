@@ -35,7 +35,7 @@ export default function About() {
             spent ten years in higher education where I held various web
             development/design/leadership roles. I then shifted the focus of my
             career entirely, pursuing my love of UX design by joining Esri as a
-            Senior UX Designer.{' '}
+            Senior UX Designer. In August 2021, I left Esri and joined Matterport's design team in a senior product designer role focused on transactional web experiences.{' '}
           </p>
           <h2 className="mt-14 mb-8">What I Believe</h2>
           <p>

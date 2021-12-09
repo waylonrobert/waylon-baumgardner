@@ -25,8 +25,8 @@ const IndexPage = () => (
           <h2 className="dark:text-dark-heading-text">Hi, I'm Waylon</h2>
 
           <p className="text-text text-xl md:text-2xl mt-5 dark:text-dark-text">
-            I'm a human-centered user experience designer based in Southern
-            California. I currently work at Esri as a UX strategist.
+            I'm a human-centered senior product designer based in Southern
+            California currently working at Matterport.
           </p>
         </div>
       </div>
