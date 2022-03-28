@@ -7,7 +7,7 @@ export default function TwitterIcon() {
       title="Waylon Baumgardner's Twitter profile"
     >
       <svg
-        className="text-heading-text dark:text-dark-text hover:text-text dark:hover:text-mint"
+        className="text-darkPurple dark:text-dark-text hover:text-text dark:hover:text-mint"
         width="32"
         height="27"
         viewBox="0 0 32 27"

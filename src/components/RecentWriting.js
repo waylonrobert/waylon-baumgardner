@@ -25,7 +25,7 @@ export default function RecentWriting() {
   return (
     <div>
       {data.allMdx.nodes.map((posts) => (
-        <div className="mt-6 md:mt-6" key={posts.frontmatter.title}>
+        <div className="p-1 md:px-16 md:py-2 mt-6 md:mt-6" key={posts.frontmatter.title}>
           <span>
             <aside className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
               {posts.frontmatter.date}

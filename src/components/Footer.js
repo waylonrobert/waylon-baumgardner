@@ -9,7 +9,7 @@ import TwitterIcon from './TwitterIcon';
 
 const ListLink = (props) => (
   <Link
-    className="font-worksans text-xs text-heading-text underline"
+    className="font-worksans text-xs text-darkPurple underline"
     to={props.to}
     title={props.title}
   >
@@ -42,7 +42,7 @@ export default function Footer() {
       </div> */}
       <div className="grid md:grid-cols-2 md:gap-2 mx-auto w-11/12 mt-4 md:w-3/4 2xl:w-1/2 md:mt-14">
         <div className="col1 order-last md:order-first">
-          <span className="font-worksans text-xs leading-none text-heading-text dark:text-white align-bottom">
+          <span className="font-worksans text-xs leading-none text-darkPurple dark:text-white align-bottom">
             Copyright &copy;{new Date().getFullYear()} Waylon Baumgardner. All
             rights reserved.
           </span>

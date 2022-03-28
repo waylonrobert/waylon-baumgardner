@@ -7,7 +7,7 @@ export default function GitHubIcon({ props }) {
       title="Waylon Baumgardner's GitHub profile"
     >
       <svg
-        className="text-heading-text dark:text-dark-text hover:text-text dark:hover:text-mint"
+        className="text-darkPurple dark:text-dark-text hover:text-text dark:hover:text-mint"
         width="32"
         height="32"
         viewBox="0 0 24 24"

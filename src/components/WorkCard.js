@@ -4,10 +4,10 @@ import React from 'react';
 export default function WorkCard(props) {
   return (
     <div className="work-card">
-      <p className="name text-heading-text dark:text-dark-heading-text text-2xl font-worksans font-semibold">
+      <p className="name text-darkPurple dark:text-dark-heading-text text-2xl font-worksans font-semibold">
         {props.projectName}
       </p>
-      <p className="skills text-text dark:text-dark-heading-text text-sm font-worksans font-normal uppercase no-underline">
+      <p className="skills text-darkNavy dark:text-dark-heading-text text-sm font-worksans font-normal uppercase no-underline">
         {props.skills}
       </p>
     </div>

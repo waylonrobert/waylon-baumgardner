@@ -24,13 +24,13 @@ export default function CurrentlyListening() {
 
   return (
     <div>
-      <h2 className="uppercase font-worksans text-heading-text leading-none dark:text-white font-medium text-sm mt-6 md:mt-0">
+      <h2 className="uppercase font-worksans text-darkPurple leading-none dark:text-white font-medium text-sm mt-6 md:mt-0">
         Currently listening
       </h2>
 
       {data.allSpotifyRecentTrack.nodes.map((tracks) => (
         <span key={tracks.track.name}>
-          <p className="track md:leading-tight font-lora font-medium text-text dark:text-mint text-sm md:text-lg mt-2">
+          <p className="track md:leading-tight font-lora font-medium text-darkNavy dark:text-mint text-sm md:text-lg mt-2">
             {tracks.track.name}
           </p>
 
@@ -44,7 +44,7 @@ export default function CurrentlyListening() {
           ))}
         </span>
       ))}
-      <p className="listening font-worksans text-heading-text font-semibold text-xs mt-2">
+      <p className="listening font-worksans text-darkPurple font-semibold text-xs mt-2">
         <Link
           to="/listening-log"
           title="See listening log"

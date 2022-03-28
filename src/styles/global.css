@@ -4,54 +4,54 @@
 @layer base {
 
   body {
-    @apply font-lora text-xl bg-bg;
+    @apply font-lora text-xl bg-parchment;
 }
   body.dark {
     @apply bg-dark-bg;
   }
   h1 {
-    @apply mb-4 text-text dark:text-white text-5xl font-worksans font-extrabold;
+    @apply mb-4 text-darkNavy dark:text-white text-5xl font-worksans font-extrabold;
   }
   h2 {
-      @apply text-heading-text dark:text-dark-heading-text text-4xl font-worksans font-extrabold;
+      @apply text-darkPurple dark:text-dark-heading-text text-4xl font-worksans font-extrabold;
   }
   h3 {
-    @apply text-heading-text dark:text-dark-heading-text text-3xl font-worksans font-bold;
+    @apply text-darkPurple dark:text-dark-heading-text text-3xl font-worksans font-bold;
   }
   h4 {
-    @apply text-text dark:text-mint text-xl md:text-2xl text-center font-worksans font-semibold;
+    @apply text-darkPurple dark:text-mint text-xl md:text-2xl text-center font-worksans font-semibold;
   }
   p {
-    @apply text-text dark:text-dark-text;
+    @apply text-darkNavy dark:text-dark-text;
   }
   p a, .article ul li a, .case-study-narrative ul li a, .about-interests li a{
-      @apply text-heading-text dark:text-dark-heading-text underline;
+      @apply text-darkPurple dark:text-dark-heading-text underline;
   }
  
   ul {
       @apply list-disc list-inside;
   }
   ul li::marker {
-      @apply text-heading-text dark:text-dark-heading-text;
+      @apply text-darkPurple dark:text-dark-heading-text;
   }
   ul.ctas li {
-      @apply text-heading-text dark:text-dark-heading-text text-2xl font-worksans font-semibold my-4;
+      @apply text-darkPurple dark:text-dark-heading-text text-2xl font-worksans font-semibold my-4;
   }
   nav a:hover {
-      @apply text-heading-text dark:text-dark-heading-text;
+      @apply text-darkPurple dark:text-dark-heading-text;
   }
   blockquote::before {
-    @apply text-heading-text dark:text-dark-heading-text text-xl md:text-5xl font-lora;
+    @apply text-darkPurple dark:text-dark-heading-text text-xl md:text-5xl font-lora;
     content: "“";
   }
   blockquote {
-    @apply text-base text-text dark:text-dark-text my-4 md:my-0;
+    @apply text-base text-darkNavy dark:text-dark-text my-4 md:my-0;
   }
   aside.notice {
-    @apply p-4 bg-red-200 dark:bg-green-200 text-text text-base text-center font-worksans;
+    @apply p-4 bg-red-200 dark:bg-green-200 text-darkNavy text-base text-center font-worksans;
   }
   .active {
-    @apply text-heading-text dark:text-dark-heading-text font-semibold;
+    @apply text-darkPurple dark:text-dark-heading-text font-semibold;
   }
   .work a,
   .listening a,
@@ -83,10 +83,10 @@
     @apply leading-normal my-6;
   }
   p.caption {
-    @apply -mt-1 mb-4 text-sm font-worksans font-medium text-heading-text dark:text-dark-heading-text text-center;
+    @apply -mt-1 mb-4 text-sm font-worksans font-medium text-darkPurple dark:text-dark-heading-text text-center;
   } 
   .article ul li, .case-study-narrative ul li {
-    @apply text-text dark:text-dark-text ml-4 p-2;
+    @apply text-darkNavy dark:text-dark-text ml-4 p-2;
   }
 }
 

@@ -30,6 +30,12 @@ const WorkPage = () => (
         <MiniTitleBlock title="Where I've Worked" />
       </div>
       <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+      <div>
+            <StaticImage src="../images/matterport-thumb.jpg" alt="Matterport logo" />
+            <WorkCard projectName="Matterport" />
+    
+          <Skills skills="UX • UI • COACHING" />
+        </div>
         <div>
           <Link
             to="/work/esri"
@@ -38,7 +44,7 @@ const WorkPage = () => (
             <StaticImage src="../images/esri-thumb.jpg" alt="Esri logo" />
             <WorkCard projectName="Esri" />
           </Link>
-          <Skills skills="UX" />
+          <Skills skills="UX • STRATEGY • COACHING" />
         </div>
         <div>
           <Link
@@ -48,7 +54,7 @@ const WorkPage = () => (
             <StaticImage src="../images/cbu-thumb.jpg" alt="CBU logo" />
             <WorkCard projectName="California Baptist University" />
           </Link>
-          <Skills skills="UX • UI • CONTENT • DEVELOPMENT" />
+          <Skills skills="UX/UI • STRATEGY  • PEOPLE MANAGEMENT • DEVELOPMENT" />
         </div>
       </div>
       {/* <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">

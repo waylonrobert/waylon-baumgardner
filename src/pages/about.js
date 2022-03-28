@@ -24,8 +24,8 @@ export default function About() {
             />
           </div>
           <p className="mb-4">
-            Hi, my name is Waylon Baumgardner, and I'm a UX designer, front-end
-            developer who knows enough to be dangerous, and <em>amateur</em>{' '}
+            Hi, my name is Waylon Baumgardner, and I'm a product designer, front-end
+            developer who knows enough to be dangerous, design educator, <a href="https://adplist.org/mentors/waylon-baumgardner" title="My ADPList mentor profile">mentor</a>, and <em>amateur</em>{' '}
             violinist (<em>very</em> amateur) from and based out of Southern
             California. I grew up in San Diego, and now reside somewhere in
             between San Diego and LA.
@@ -34,8 +34,8 @@ export default function About() {
             I started my professional career as a web developer/designer. I
             spent ten years in higher education where I held various web
             development/design/leadership roles. I then shifted the focus of my
-            career entirely, pursuing my love of UX design by joining Esri as a
-            Senior UX Designer. In August 2021, I left Esri and joined Matterport's design team in a senior product designer role focused on transactional web experiences.{' '}
+            career entirely, pursuing my love of UX and UI design by joining Esri as a
+            Senior UX Designer. I now work on Matterport's design team in a senior product designer role focused on transactional web experiences.{' '}
           </p>
           <h2 className="mt-14 mb-8">What I Believe</h2>
           <p>
@@ -64,10 +64,10 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 my-8">
           <div>
-            <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+            <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
               My interests
             </h2>
-            <ul className="about-interests dark:text-dark-text">
+            <ul className="about-interests py-1 md:py-4 dark:text-dark-text">
               <li>Writing</li>
               <li>
                 <Link to="/reading-log">Reading</Link>
@@ -76,20 +76,20 @@ export default function About() {
                 <Link to="/music-log">Music</Link>
               </li>
               <li>Web design/dev</li>
+              <li>Graphic design/typography</li>
               <li>Obscure 90's TV</li>
-              <li>British TV</li>
               <li>Coffee</li>
-              <li>Bourbon</li>
+              <li>Bourbon whiskey</li>
               <li>Cars</li>
               <li>Console video games</li>
             </ul>
           </div>
           <div>
-            <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm text-left">
+            <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm text-left">
               My knowledge areas
             </h2>
 
-            <ul className="about-interests dark:text-dark-text">
+            <ul className="about-interests py-1 md:py-4 dark:text-dark-text">
               <li>Higher education</li>
               <li>Leadership</li>
               <li>Nonprofits</li>
@@ -118,7 +118,7 @@ export default function About() {
             implement along the way. Thanks Waylon for bringing my life's work
             to life!
           </blockquote>
-          <p className="text-sm mt-2 text-heading-text dark:text-dark-heading-text font-worksans font-medium">
+          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
             <em>
               &mdash;Kayna Cassard MS, LFMT, Owner at Intuitive Sensuality
             </em>
@@ -134,7 +134,7 @@ export default function About() {
             service and always goes above and beyond to deliver solutions that
             delight his clients and makes users' lives better.
           </blockquote>
-          <p className="text-sm mt-2 text-heading-text dark:text-dark-heading-text font-worksans font-medium">
+          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
             <em>&mdash;Sean Dillingham, Product Design Manager at Honey</em>
           </p>
         </div>
@@ -148,7 +148,7 @@ export default function About() {
             Overall he just a great person to work with because he makes the
             process easy.
           </blockquote>
-          <p className="text-sm mt-2 text-heading-text dark:text-dark-heading-text font-worksans font-medium">
+          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
             <em>
               &mdash;Keith Castillo, Sr. Instructional Designer at Charter
               College
@@ -157,16 +157,10 @@ export default function About() {
         </div>
         <div>
           <blockquote>
-            Waylon is a talented web designer and great to work with. His
-            openness to solve problems and his careful attention to detail are
-            valuable traits. Waylon always looks for new solutions and fresh
-            ideas that can advance his knowledge to exceed our customers'
-            expectations. Waylon is extremely reliable, helpful and insightful.
-            He is a passionate web designer with a great attitude and always
-            willing to help, which makes him a great asset to any company.
+          I had such an information-packed 30-minute interview prep session with Waylon. He is so articulate and understands exactly what I was curious to know or concerned about. He deciphers the intentions behind the most frequently asked questions and gave so many helpful tips on how to tie my interests with the company's goals while being authentically me.
           </blockquote>
-          <p className="text-sm mt-2 text-heading-text dark:text-dark-heading-text font-worksans font-medium">
-            <em>&mdash;Hadeel Thompson, Sr. Product Manager at Wells Fargo</em>
+          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
+            <em>&mdash;Gaeun Karen Lee, UX designer and ADPList Mentee</em>
           </p>
         </div>
       </div>

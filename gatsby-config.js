@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: 'Waylon Baumgardner',
-    description: `I'm Waylon Baumgardner, a senior user experience designer based in Southern California.`,
+    description: `I'm a user experience professional, design leader, and educator based in Southern California.`,
     twitter: 'waylonrobert',
   },
   plugins: [
@@ -51,6 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-source-spotify`,
       options: {
+        // on local make sure .env file is present, otherwise this breaks
         clientId: process.env.SPOTIFY_CLIENT_ID,
         clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
         refreshToken: process.env.SPOTIFY_REFRESH_TOKEN,
@@ -75,6 +76,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
+        // on local make sure .env file is present, otherwise this breaks
         domain: process.env.PLAUSIBLE_DOMAIN,
       },
     },

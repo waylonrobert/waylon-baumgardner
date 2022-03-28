@@ -51,7 +51,7 @@ export default function Header() {
         /> */}
       </Link>
       <nav className="text-center md:text-none md:ml-1">
-        <ul className="m-0 text-text dark:text-dark-text focus:text-center md:float-right md:m-3 font-worksans uppercase">
+        <ul className="m-0 text-darkNavy dark:text-dark-text focus:text-center md:float-right md:m-3 font-worksans uppercase">
           <ListLink
             to="/work"
             title="Work"
