@@ -2,16 +2,10 @@
 module.exports = {
   /* very important otherwise PurgeCSS won't work */
 
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  content: [
-    './src/**/*.html', './src/**/*.js', './src/**/*.jsx'],
-    // classes
-    safelist: [
-      'bg-red-200', 
-      'bg-green-200',
-    ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.html', './src/**/*.js', './src/**/*.jsx'],
+  // classes
+  safelist: ['bg-red-200', 'bg-green-200'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
@@ -20,7 +14,8 @@ module.exports = {
         'dark-bg': 'hsl(0, 0%, 11%)',
         text: '#2F2F2F',
         'dark-text': '#E1E1E1',
-        'heading-text': '#AD4E3C',
+        'heading-text': '#1A0481',
+        // 'heading-text': '#AD4E3C',
         'dark-heading-text': '#5BD18D',
         'british-racing-green': '#214E34',
         mint: '#dafdd8',

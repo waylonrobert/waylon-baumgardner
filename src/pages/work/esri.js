@@ -19,7 +19,7 @@ const EsriWorkPage = () => (
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
             My role
           </h2>
           <p className="text-base leading-tight">
@@ -28,7 +28,7 @@ const EsriWorkPage = () => (
           </p>
         </div>
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
             My methods
           </h2>
           <p className="text-base leading-tight">
