@@ -29,11 +29,18 @@ const WorkPage = () => (
       <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
         <MiniTitleBlock title="Where I've Worked" />
       </div>
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-      <div>
-            <StaticImage src="../images/matterport-thumb.jpg" alt="Matterport logo" />
+      <div className="work grid md:grid-cols-1 md:gap-8 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+        <div>
+          <Link
+            to="/work/matterport"
+            className="text-darkPurple dark:text-dark-heading-text"
+          >
+            <StaticImage
+              src="../images/matterport-thumb.jpg"
+              alt="Matterport logo"
+            />
             <WorkCard projectName="Matterport" />
-    
+          </Link>
           <Skills skills="UX • UI • COACHING" />
         </div>
         <div>
