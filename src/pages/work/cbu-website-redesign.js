@@ -59,14 +59,19 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
           <div className="md:col-span-2">
             <div className="my-6 md:pl-6">
               <p>
-                California Baptist University (CBU) is one of Southern
-                California's fastest growing university. In 2016, CBU had over
-                8,000 enrolled students and was in the midst of unprecedented
-                growth across the university. I led a project team of designers,
-                developers, and marketers to redesign and implement a website
-                that would make content easier to find for future students and
-                improve page performance (particularly important for
-                international recruitment).
+                <a
+                  href="https://calbaptist.edu"
+                  title="California Baptist University"
+                >
+                  California Baptist University (CBU)
+                </a>{' '}
+                is one of Southern California's fastest growing universities. In
+                2016, CBU had over 8,000 enrolled students and was in the midst
+                of unprecedented growth across the university. I led a project
+                team of designers, developers, and marketers to redesign and
+                implement a website that would make content easier to find for
+                future students and improve page performance (particularly
+                important for international recruitment).
               </p>
             </div>
           </div>
@@ -397,10 +402,10 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
             <Link to="/work/arousal-architecture">Next Project →</Link>
           </aside>
           <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
-            Arousal Architecture&trade; &mdash; transforming a paper assessment
-            to an online experience
+            CBU Marketing Applications platform &mdash; a suite of web apps to
+            support achieving marketing objectives.
           </h3>
-          <Button to="/work/arousal-architecture">Read case study</Button>
+          <Button to="/work/cbu-marketing-applications">Read case study</Button>
         </div>
       </div>
     </section>

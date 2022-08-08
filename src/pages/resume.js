@@ -17,6 +17,7 @@ export default function Resume() {
           href="WaylonBaumgardnerResume.pdf"
           type="button"
           title="Download Waylon Baumgardner resume in PDF format"
+          className="mb-8"
         >
           <button
             type="button"

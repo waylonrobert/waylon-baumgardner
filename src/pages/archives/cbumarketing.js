@@ -258,24 +258,23 @@ const CbuMarketingAppPageCaseStudy = () => (
     <section className="bg-darkNavy dark:bg-accent/40 py-8 w-full">
       <div className="grid grid-cols-1 max-w-7xl mx-auto md:grid-cols-2">
         <div className="max-w-7xl p-4 mx-auto md:px-8">
-          <aside className="text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
-            <Link to="/work/arousal-architecture">← Previous Project</Link>
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/cbu-website-redesign">Next Project →</Link>
+          </aside>
+          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
+            CBU &mdash; redesigning the digital face of a university
+          </h3>
+          <Button to="/work/cbu-website-redesign">Read case study</Button>
+        </div>
+        <div className="max-w-7xl p-4 mx-auto md:px-8">
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/arousal-architecture">Next Project →</Link>
           </aside>
           <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
             Arousal Architecture&trade; &mdash; transforming a paper assessment
-            to a website
+            to an online experience
           </h3>
           <Button to="/work/arousal-architecture">Read case study</Button>
-        </div>
-        <div className="max-w-7xl p-4 mx-auto md:px-8">
-          <aside className="text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
-            <Link to="/work/redlands-web-design-class">Next Project →</Link>
-          </aside>
-          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
-            University of Redlands &mdash; teaching a web design class using
-            Figma
-          </h3>
-          <Button to="/work/redlands-web-design-class">Read case study</Button>
         </div>
       </div>
     </section>

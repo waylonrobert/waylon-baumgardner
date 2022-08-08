@@ -78,10 +78,10 @@
   .next-steps-left:hover::before {
     content: "← "
   }
-  a:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='arousalarchitecture.com']):not([href*='howmuchoxalate.com']):not([href^='#']):not([href^='/']):hover::after,
+  /* a:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='arousalarchitecture.com']):not([href*='howmuchoxalate.com']):not([href^='#']):not([href^='/']):hover::after,
   button:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='matterport.com']):not([type*='submit']):not([class*='cta']):not([href^='#']):not([href^='/']):not([aria-label*='theme-switch']):hover::after {
     content: " ↗";
-}
+} */
   .article h2 {
       @apply my-4;
   }

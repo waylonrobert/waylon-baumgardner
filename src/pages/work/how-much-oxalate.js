@@ -282,7 +282,7 @@ const HowMuchOxalatePageCaseStudy = () => (
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
         <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
-          Achieving client happiness
+          Solid foundation for future improvements
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
           To generate interest in this site, I shared it with people I've come
@@ -290,7 +290,9 @@ const HowMuchOxalatePageCaseStudy = () => (
           also a member of numerous online forums and social media groups where
           I've shared the link as a resource to the community. I've gotten some
           personal messages in response thanking me for building this site, and
-          for me there is no better outcome than a happy user.
+          for me there is no better outcome than a happy user. Since launching
+          in summer 2020, it's generated over 10,000 unique visitors, with 95%
+          of traffic coming from organic search.
         </p>
       </div>
     </section>
