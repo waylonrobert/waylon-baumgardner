@@ -42,7 +42,7 @@ const ListeningLogPage = () => {
         <div className="mx-auto w-11/12 md:w-3/4 my-8">
           {data.allSpotifyRecentTrack.nodes.map((tracks) => (
             <div className="mb-8" key={tracks.track.name}>
-              <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
+              <p className="text-heading-text text-xl md:text-2xl font-defaultSans font-semibold">
                 <a
                   className=""
                   href={tracks.track.external_urls.spotify}
@@ -54,7 +54,7 @@ const ListeningLogPage = () => {
 
               {tracks.track.artists.map((node) => (
                 <p
-                  className="font-lora font-normal italic text-text text-base md:text-lg"
+                  className="font-sourceSerifPro font-normal text-text text-base md:text-lg"
                   key={node.name}
                 >
                   {node.name}

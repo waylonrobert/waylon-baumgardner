@@ -6,20 +6,20 @@ import { Link } from 'gatsby';
 export default function CurrentlyReading() {
   return (
     <div className="reading">
-      <h2 className="uppercase font-worksans leading-none text-darkPurple dark:text-white font-medium text-sm">
+      <h2 className="uppercase font-defaultSans leading-none text-accent dark:text-white font-medium text-sm">
         Currently Reading
       </h2>
-      <p className="title capitalize md:leading-tight font-lora font-medium text-darkNavy dark:text-mint text-sm md:text-lg mt-2">
-        The Great Train Robbery
+      <p className="title capitalize md:leading-tight font-defaultSans font-medium text-text dark:text-dark-heading-text text-sm md:text-lg mt-2">
+        The Paris Apartment
       </p>
-      <p className="author font-lora italic text-xs md:text-sm dark:text-white ">
-        Michael Crichton
+      <p className="author font-sourceSerifPro text-xs mt-1 md:text-sm dark:text-white ">
+        Lucy Foley
       </p>
-      <p className="link font-worksans text-darkPurple font-semibold text-xs mt-2">
+      <p className="link font-defaultSans text-text font-semibold text-xs mt-2">
         <Link
           to="/reading-log"
           title="See reading log"
-          className="dark:text-mint"
+          className="dark:text-dark-heading-text hover:after:content-['→'] hover:after:align-middle"
         >
           See reading log
         </Link>

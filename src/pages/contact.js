@@ -28,7 +28,7 @@ const ContactPage = () => (
             <input
               id="name"
               type="text"
-              className="mt-1 block w-full rounded-md focus:ring-heading-text dark:focus:ring-dark-heading-text"
+              className="mt-1 block w-full rounded-md focus:ring-accent dark:focus:ring-dark-heading-text"
               placeholder="Your name"
               name="name"
             />
@@ -38,7 +38,7 @@ const ContactPage = () => (
             <input
               id="email"
               type="email"
-              className="mt-1 block w-full rounded-md focus:ring-heading-text dark:focus:ring-dark-heading-text"
+              className="mt-1 block w-full rounded-md focus:ring-accent dark:focus:ring-dark-heading-text"
               placeholder="youremail@youremailprovider.com"
               name="email"
             />
@@ -48,7 +48,7 @@ const ContactPage = () => (
             <span className="text-text dark:text-dark-text">Message</span>
             <textarea
               id="message"
-              className="mt-1 block w-full rounded-md focus:ring-heading-text dark:focus:ring-dark-heading-text"
+              className="mt-1 block w-full rounded-md focus:ring-accent dark:focus:ring-dark-heading-text"
               rows="4"
               placeholder="Your message"
               name="message"
@@ -56,14 +56,14 @@ const ContactPage = () => (
           </label>
           <button
             type="submit"
-            className="bg-heading-text dark:bg-dark-heading-text text-white py-2 px-8 mr-2 mt-4 text-center text-sm font-worksans"
+            className="bg-accent dark:bg-dark-heading-text text-white dark:text-black py-2 px-8 mr-2 mt-4 text-center text-sm font-defaultSans"
           >
             Send
           </button>
           <input
             type="reset"
             value="Clear"
-            className="bg-transparent text-heading-text dark:text-dark-heading-text py-2 px-8 border border-heading-text dark:border-dark-heading-text mt-4 text-center text-sm font-worksans"
+            className="bg-transparent text-accent dark:text-dark-heading-text py-2 px-8 border border-accent dark:border-dark-heading-text mt-4 text-center text-sm font-defaultSans"
           />
         </form>
       </div>

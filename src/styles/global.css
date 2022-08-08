@@ -1,63 +1,68 @@
 @tailwind base;
 @tailwind utilities;
+@import "../styles/typography.css";
 
 @layer base {
 
+  html {
+    @apply scroll-smooth;
+  }
   body {
-    @apply font-lora text-xl bg-parchment;
+    @apply font-sourceSerifPro text-xl bg-bg;
 }
   body.dark {
     @apply bg-dark-bg;
   }
   h1 {
-    @apply mb-4 text-darkNavy dark:text-white text-5xl font-worksans font-extrabold;
+    @apply mb-4 text-accent dark:text-white text-5xl font-defaultSans font-extrabold;
   }
   h2 {
-      @apply text-darkPurple dark:text-dark-heading-text text-4xl font-worksans font-extrabold;
+      @apply text-accent dark:text-dark-heading-text text-4xl font-defaultSans font-extrabold;
   }
   h3 {
-    @apply text-darkPurple dark:text-dark-heading-text text-3xl font-worksans font-bold;
+    @apply text-accent dark:text-dark-heading-text text-3xl font-defaultSans font-bold;
   }
   h4 {
-    @apply text-darkPurple dark:text-mint text-xl md:text-2xl text-center font-worksans font-semibold;
+    @apply text-accent dark:text-white text-xl md:text-2xl text-center font-defaultSans font-semibold;
   }
   p {
-    @apply text-darkNavy dark:text-dark-text;
+    @apply text-text dark:text-dark-text;
   }
   p a, .article ul li a, .case-study-narrative ul li a, .about-interests li a{
-      @apply text-darkPurple dark:text-dark-heading-text underline;
+      @apply text-accent dark:text-dark-heading-text underline;
   }
  
   ul {
       @apply list-disc list-inside;
   }
   ul li::marker {
-      @apply text-darkPurple dark:text-dark-heading-text;
+      @apply text-accent dark:text-dark-heading-text;
   }
   ul.ctas li {
-      @apply text-darkPurple dark:text-dark-heading-text text-2xl font-worksans font-semibold my-4;
+      @apply text-accent dark:text-dark-heading-text text-2xl font-defaultSans font-semibold my-4;
   }
   nav a:hover {
-      @apply text-darkPurple dark:text-dark-heading-text;
+      @apply text-accent dark:text-dark-heading-text;
   }
   blockquote::before {
-    @apply text-darkPurple dark:text-dark-heading-text text-xl md:text-5xl font-lora;
+    @apply text-accent dark:text-dark-heading-text text-xl md:text-5xl font-sourceSerifPro;
     content: "“";
   }
   blockquote {
-    @apply text-base text-darkNavy dark:text-dark-text my-4 md:my-0;
+    @apply text-base text-text dark:text-dark-text my-4 md:my-0 font-sourceSerifPro;
   }
   aside.notice {
-    @apply p-4 bg-red-200 dark:bg-green-200 text-darkNavy text-base text-center font-worksans;
+    @apply p-4 bg-red-200 dark:bg-green-200 text-accent text-base text-center font-defaultSans;
   }
   .active {
-    @apply text-darkPurple dark:text-dark-heading-text font-semibold;
+    @apply text-accent dark:text-dark-heading-text font-semibold;
   }
   .work a,
   .listening a,
   .next-steps a {
       @apply underline;
   }
+
   p a:not([class*='alt']):hover::after,
   .ctas a:hover::after,
   .work a p:hover::after,
@@ -65,14 +70,16 @@
   .posts p a:hover::after,
   article ul li a:hover::after,
   button:not([type*='submit']):not([aria-label*='theme-switch']):hover::after,
-  a.link p:hover::after {
-      content: " →";
+  a.link p:hover::after,
+ /* ul.keys li::before */ { 
+      content: "→ ";
   }
+
   .next-steps-left:hover::before {
     content: "← "
   }
   a:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='arousalarchitecture.com']):not([href*='howmuchoxalate.com']):not([href^='#']):not([href^='/']):hover::after,
-  button:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([type*='submit']):not([class*='cta']):not([href^='#']):not([href^='/']):not([aria-label*='theme-switch']):hover::after {
+  button:not([href*='waylonbaumgardner.com']):not([href*='github.com']):not([href*='linkedin.com']):not([href*='twitter.com']):not([href*='esri.com']):not([href*='calbaptist.edu']):not([href*='matterport.com']):not([type*='submit']):not([class*='cta']):not([href^='#']):not([href^='/']):not([aria-label*='theme-switch']):hover::after {
     content: " ↗";
 }
   .article h2 {
@@ -83,10 +90,10 @@
     @apply leading-normal my-6;
   }
   p.caption {
-    @apply -mt-1 mb-4 text-sm font-worksans font-medium text-darkPurple dark:text-dark-heading-text text-center;
+    @apply -mt-4 mb-6 text-sm font-defaultSans font-medium italic text-accent dark:text-dark-heading-text text-left;
   } 
   .article ul li, .case-study-narrative ul li {
-    @apply text-darkNavy dark:text-dark-text ml-4 p-2;
+    @apply text-text dark:text-dark-text ml-4 p-2;
   }
 }
 

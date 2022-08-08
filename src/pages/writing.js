@@ -6,7 +6,7 @@ import SEO from '../components/SEO';
 import TitleBlock from '../components/TitleBlock';
 
 // const ListLink = (props) => (
-//   <li className="text-heading-text text-2xl font-worksans font-semibold my-4">
+//   <li className="text-heading-text text-2xl font-defaultSans font-semibold my-4">
 //     <Link to={props.to} className="underline">
 //       {props.children}
 //     </Link>
@@ -59,19 +59,19 @@ const WritingPage = () => {
                     className="my-4 md:my-8 list-none"
                     key={node.frontmatter.date}
                   >
-                    <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
+                    <span className="text-text dark:text-dark-text text-sm font-defaultSans font-semibold uppercase">
                       {node.frontmatter.date}
                     </span>
 
                     {/* this / is needed because Link defaults link tos as relative */}
 
-                    <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
+                    <p className="text-heading-text text-xl md:text-2xl font-defaultSans font-semibold">
                       <Link to={`/${node.slug}`} className="underline">
                         {node.frontmatter.title}
                       </Link>
                     </p>
 
-                    <p className="font-lora font-normal italic text-text text-sm md:text-lg">
+                    <p className="font-sourceSerifPro font-normal italic text-text text-sm md:text-lg">
                       {node.frontmatter.intro}
                     </p>
                   </li>

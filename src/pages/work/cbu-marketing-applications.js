@@ -10,7 +10,7 @@ const CbuMarketingProjectsPage = () => (
   <Layout>
     <SEO title="CBU Marketing Applications Case Study – Work" />
     <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-      <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-worksans font-semibold uppercase">
+      <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-defaultSans font-semibold uppercase">
         Case Study
       </aside>
       <TitleBlock
@@ -20,7 +20,7 @@ const CbuMarketingProjectsPage = () => (
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-heading-text font-semibold text-xs md:text-sm">
             My role
           </h2>
           <p className="text-base leading-tight">
@@ -28,7 +28,7 @@ const CbuMarketingProjectsPage = () => (
           </p>
         </div>
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-heading-text font-semibold text-xs md:text-sm">
             My methods
           </h2>
           <p className="text-base leading-tight">
@@ -224,7 +224,7 @@ const CbuMarketingProjectsPage = () => (
             </p>
           </div>
           <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-            <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
+            <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-defaultSans font-semibold 2xl:text-center">
               <li className="md:inline-block">
                 <Link
                   className="next-steps-left"

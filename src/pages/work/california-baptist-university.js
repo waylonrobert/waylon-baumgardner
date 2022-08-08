@@ -18,7 +18,7 @@ const CbuWorkPage = () => (
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs md:text-sm">
             My role
           </h2>
           <p className="text-base leading-tight">
@@ -27,7 +27,7 @@ const CbuWorkPage = () => (
           </p>
         </div>
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs md:text-sm">
             My methods
           </h2>
           <p className="text-base leading-tight">
@@ -75,7 +75,7 @@ const CbuWorkPage = () => (
         <div>
           <Link
             to="/work/cbu-website-redesign"
-            className="text-heading-text dark:text-dark-heading-text"
+            className="text-accent dark:text-dark-heading-text"
           >
             <StaticImage
               src="../../images/cbu-website-redesign-thumb.jpg"
@@ -87,7 +87,7 @@ const CbuWorkPage = () => (
         <div>
           <Link
             to="/work/cbu-marketing-applications"
-            className="text-heading-text dark:text-dark-heading-text"
+            className="text-accent dark:text-dark-heading-text"
           >
             <StaticImage
               src="../../images/cbu-marketing-applications-thumb.jpg"
@@ -99,7 +99,7 @@ const CbuWorkPage = () => (
       </div>
 
       <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-        <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
+        <ul className="list-none text-accent dark:text-dark-heading-text text-base md:text-xl font-defaultSans font-semibold 2xl:text-center">
           <li className="md:inline-block">
             <Link
               className="next-steps-left"

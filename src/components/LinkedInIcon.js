@@ -7,7 +7,7 @@ export default function LinkedInIcon({ props }) {
       title="Waylon Baumgardner's LinkedIn profile"
     >
       <svg
-        className="text-darkPurple dark:text-dark-text hover:text-text dark:hover:text-mint"
+        className="text-text dark:text-dark-text hover:text-accent dark:hover:text-mint"
         width="32"
         height="32"
         viewBox="0 0 32 32"

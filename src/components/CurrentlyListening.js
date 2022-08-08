@@ -24,19 +24,19 @@ export default function CurrentlyListening() {
 
   return (
     <div>
-      <h2 className="uppercase font-worksans text-darkPurple leading-none dark:text-white font-medium text-sm mt-6 md:mt-0">
+      <h2 className="uppercase font-defaultSans text-accent dark:text-white leading-none dark:text-white font-medium text-sm mt-6 md:mt-0">
         Currently listening
       </h2>
 
       {data.allSpotifyRecentTrack.nodes.map((tracks) => (
         <span key={tracks.track.name}>
-          <p className="track md:leading-tight font-lora font-medium text-darkNavy dark:text-mint text-sm md:text-lg mt-2">
+          <p className="track md:leading-tight font-defaultSans font-medium text-text dark:text-dark-heading-text text-sm md:text-lg mt-2">
             {tracks.track.name}
           </p>
 
           {tracks.track.artists.map((node) => (
             <p
-              className="artist font-lora italic text-xs md:text-sm dark:text-white"
+              className="artist font-sourceSerifPro text-xs mt-1 md:text-sm dark:text-white"
               key={node.name}
             >
               {node.name}
@@ -44,11 +44,11 @@ export default function CurrentlyListening() {
           ))}
         </span>
       ))}
-      <p className="listening font-worksans text-darkPurple font-semibold text-xs mt-2">
+      <p className="listening font-defaultSans text-text font-semibold text-xs mt-2">
         <Link
           to="/listening-log"
           title="See listening log"
-          className="dark:text-mint"
+          className="dark:text-dark-heading-text hover:after:content-['→'] hover:after:align-middle"
         >
           See listening log
         </Link>

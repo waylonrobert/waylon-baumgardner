@@ -2,8 +2,8 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: 'Waylon Baumgardner',
-    description: `I'm a user experience professional, design leader, and educator based in Southern California.`,
+    title: 'Waylon Baumgardner | Designer, leader, educator',
+    description: `A designer, leader, and educator based in Southern California.`,
     twitter: 'waylonrobert',
   },
   plugins: [
@@ -46,6 +46,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content`,
+        ignore: process.env.NODE_ENV === `production` && [`**/pages/archives`], // any file in this directory gets ignored on build
       },
     },
     {
