@@ -6,6 +6,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import TitleBlock from '../../components/TitleBlock';
+import Testimonial from '../../components/Testimonial';
 
 const MatterportWorkPage = () => (
   <Layout>
@@ -18,13 +19,13 @@ const MatterportWorkPage = () => (
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
-          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs md:text-sm">
             My role
           </h2>
           <p className="text-base leading-tight">Senior Product Designer</p>
         </div>
         <div>
-          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs md:text-sm">
             My methods
           </h2>
           <p className="text-base leading-tight">
@@ -47,12 +48,12 @@ const MatterportWorkPage = () => (
           promote, and understand any physical space.
         </p>
         <p>
-          I was hired in 2021 as a Senior Product Designer to focus on their web
-          and e-commerce experiences. At Matterport, I worked with
-          cross-functional teams to plan, design, and launch improved user
-          experiences for Matterport's website and purchase site. I also coached
-          and mentored junior designers, and served as an e-commerce subject
-          matter expert.
+          I was hired in 2021 as a Senior Product Designer to improve their web
+          and e-commerce experiences while also serving as an e-commerce subject
+          matter expert. At Matterport, I worked with cross-functional teams to
+          plan, design, and launch improved user experiences for their web and
+          e-commerce sites. Primarily in a "player" role, I also coached and
+          mentored junior designers.
         </p>
         <h2 className="my-8 text-3xl md:text-4xl">Selected Work</h2>
 
@@ -118,93 +119,107 @@ const MatterportWorkPage = () => (
           Matterport's design system tokens across typography, color, and
           spacing elements.
         </p>
-      </div>
-    </div>
+        <h4 className="my-8">Components</h4>
+        <div className="mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12">
+            <div className="mx-auto">
+              <figure>
+                <StaticImage
+                  className="text-center"
+                  src="../../images/matterport-accessories-ia-tabs.jpg"
+                  alt="Tabbed navigation UI for product categories"
+                  // width={800}
+                />
+                <p className="caption pt-4">
+                  Tabbed navigation UI for product categories
+                </p>
+              </figure>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12 mt-4">
+            <div className="mx-auto">
+              <figure>
+                <StaticImage
+                  className="text-center"
+                  src="../../images/matterport-accessories-ui-cameratype.jpg"
+                  alt="Drop-down UI for product relationships (camera by type)"
+                  // width={800}
+                />
+                <p className="caption pt-4">
+                  Drop-down UI for product relationships <br /> (camera by type)
+                </p>
+              </figure>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12 mt-4">
+              <div className="mx-auto">
+                <figure>
+                  <StaticImage
+                    className="text-center"
+                    src="../../images/matterport-accessories-ui-cameratype.jpg"
+                    alt="Drop-down UI for product relationships (camera by type)"
+                    // width={800}
+                  />
+                  <p className="caption pt-4">
+                    Drop-down UI for product relationships <br /> (camera by
+                    type)
+                  </p>
+                </figure>
+              </div>
+            </div>
+            <h4 className="my-8">Final Designs</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
+              <div className="mx-auto">
+                <figure>
+                  <StaticImage
+                    className="text-center"
+                    src="../../images/matterport-accessories-final-01.png"
+                    alt="Completed navigation design - cameras"
+                    // width={600}
+                  />
+                  <p className="caption pt-4">
+                    Completed navigation design - cameras
+                  </p>
+                </figure>
+              </div>
+              <div className="mx-auto">
+                <figure>
+                  <StaticImage
+                    className="text-center"
+                    src="../../images/matterport-accessories-final-02.png"
+                    alt="Completed navigation design - accessories"
+                    // width={600}
+                  />
+                  <p className="caption pt-4">
+                    Completed navigation design - accessories
+                  </p>
+                </figure>
+              </div>
+            </div>
+            <div className="mx-auto text-center my-12">
+              <p>
+                <em>Other work for Matterport available by request</em>
+              </p>
+            </div>
+            <h2 className="my-8 text-3xl md:text-4xl">Recommendations</h2>
 
-    <h4 className="my-8">Components</h4>
-    <div className="mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12">
-        <div className="mx-auto">
-          <figure>
-            <StaticImage
-              className="text-center"
-              src="../../images/matterport-accessories-ia-tabs.jpg"
-              alt="Tabbed navigation UI for product categories"
-              // width={800}
+            <Testimonial
+              quote="Waylon rocks! I had the pleasure to work with him for a year or so at Matterport. He’s one of the kindest and friendliest people I’ve ever worked with. He’s got an exceptional work ethic and thoughtful approach to solving design and experience problems. He’s a great communicator with great technical chops — making him a wonderful collaborator with cross-functional partners."
+              author="Dave Lippman, Chief Design Officer"
             />
-            <p className="caption pt-4">
-              Tabbed navigation UI for product categories
-            </p>
-          </figure>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12 mt-4">
-        <div className="mx-auto">
-          <figure>
-            <StaticImage
-              className="text-center"
-              src="../../images/matterport-accessories-ui-cameramethod.jpg"
-              alt="Drop-down UI for product relationships (accessories by camera)"
-              // width={800}
+            <Testimonial
+              quote="Waylon Baumgardner has been an employee here at Matterport for the past year. He has been a pleasure to work with, bringing his attention to solving both system issues and customer problems for every project. His communication and people skills are excellent, and he has some very innovative ideas. He is a valued team member and has great team spirit."
+              author="Whitney Kotlewski, Director of Product Design"
             />
-            <p className="caption pt-4">
-              Drop-down UI for product relationships <br /> (accessories by
-              camera)
-            </p>
-          </figure>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-1 md:gap-1 mx-auto w-11/12 mt-4">
-        <div className="mx-auto">
-          <figure>
-            <StaticImage
-              className="text-center"
-              src="../../images/matterport-accessories-ui-cameratype.jpg"
-              alt="Drop-down UI for product relationships (camera by type)"
-              // width={800}
+            <Testimonial
+              quote="I could see the impact Waylon had on the Design Team at Matterport almost instantly. His willingness to jump in, understand context, and execute can't be ignored regardless of the task at hand. Additionally, I always found his attitude and ability to remain calm during times of stress or ambiguity to be incredibly refreshing and motivating. But, most importantly, what sets Waylon apart is the wisdom and kindness he brings to work each day. He's a truly supportive coworker who makes both the work and his coworkers better day in and day out."
+              author="Elizabeth Harp, UX Writer"
             />
-            <p className="caption pt-4">
-              Drop-down UI for product relationships <br /> (camera by type)
-            </p>
-          </figure>
-        </div>
-      </div>
-
-      <h4 className="my-8">Final Designs</h4>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mx-auto w-11/12 lg:w-1/2">
-        <div className="mx-auto">
-          <figure>
-            <StaticImage
-              className="text-center"
-              src="../../images/matterport-accessories-final-01.png"
-              alt="Completed navigation design - cameras"
-              // width={600}
+            <Testimonial
+              quote="Waylon is an incredibly thoughtful designer. He always thinks of the customer first, and has a knack for recognizing potential issues with a design before anyone else notices. His UI design work is beautiful, intentional and logical. He always puts careful planning into everything he does, and welcomes feedback at every phase of his design process. He is always willing to jump into things that aren't necessarily his responsibility in order to help others who may be struggling with their workload. Before I started working at Matterport, he fully did my job for 2-3 months in the time between my predecessor leaving and me starting, even though it was not the job he was hired to do. Simply put, Waylon ALWAYS steps up. He is such a positive influence to everyone around him, as well as a voice of comfort and reason. I have no doubt that he would exceed expectations in everything he sets out to do!"
+              author="Katie Reynolds, Senior Web Content Manager"
             />
-            <p className="caption pt-4">
-              Completed navigation design - cameras
-            </p>
-          </figure>
+          </div>
         </div>
-        <div className="mx-auto">
-          <figure>
-            <StaticImage
-              className="text-center"
-              src="../../images/matterport-accessories-final-02.png"
-              alt="Completed navigation design - accessories"
-              // width={600}
-            />
-            <p className="caption pt-4">
-              Completed navigation design - accessories
-            </p>
-          </figure>
-        </div>
-      </div>
-      <div className="mx-auto text-center my-12">
-        <p>
-          <em>Other work for Matterport available by request</em>
-        </p>
       </div>
     </div>
   </Layout>

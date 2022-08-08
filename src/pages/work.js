@@ -7,9 +7,10 @@ import TitleBlock from '../components/TitleBlock';
 import MiniTitleBlock from '../components/MiniTitleBlock';
 import WorkCard from '../components/WorkCard';
 import Skills from '../components/Skills';
+import Button from '../components/Button';
 
 // const ListLink = (props) => (
-//   <li className="text-heading-text text-2xl font-worksans font-semibold my-4">
+//   <li className="text-heading-text text-2xl font-defaultSans font-semibold my-4">
 //     {/* <Link to={props.to} className="underline">
 //       {props.children}
 //     </Link> */}
@@ -20,168 +21,126 @@ import Skills from '../components/Skills';
 const WorkPage = () => (
   <Layout>
     <SEO title="My work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+    <section className="max-w-7xl p-4 mx-auto md:px-8">
       <TitleBlock
         pageTitle="My work"
         shortDescription="I work on a variety of projects that combine elements of design, development, and content to form engaging user experiences."
       />
-      {/* <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12"> */}
-      <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
-        <MiniTitleBlock title="Where I've Worked" />
+    </section>
+    <section className="mt-8 py-8 bg-accent/10 w-full">
+      <section className="max-w-7xl p-4 mx-auto md:px-8">
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
+          <article>
+            <Link
+              to="/work/matterport-product-page"
+              title="Matterport product page case study"
+              className="hover:text-red-700"
+            >
+              <StaticImage
+                src="../images/matterport-product-page-case-study-hero.png"
+                alt="Screenshot of Matterport product page redesign"
+              />
+              <h3 className="mt-8">Matterport product page</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                Elevating product details to improve the purchase experience.
+              </p>
+            </Link>
+          </article>
+          <article>
+            <Link
+              to="/work/esri-cart-flyout"
+              title="Esri cart flyout case study"
+              className="hover:text-red-700"
+            >
+              <StaticImage
+                src="../images/esri-cart-flyout-hero-2x.png"
+                alt="Screenshot of Esri cart flyout"
+              />
+              <h3 className="mt-8">Esri cart flyout</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                Integrating a familiar e-commerce pattern.
+              </p>
+            </Link>
+          </article>
+        </div>
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
+          <article>
+            <Link
+              to="/work/cbu-website-redesign"
+              title="CBU website redesign case study"
+            >
+              <StaticImage
+                src="../images/cbu-website-redesign-hero-2x.jpg"
+                alt="Screenshot of CBU Website Redesign"
+              />
+              <h3 className="mt-8">CBU website</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                Redesigning the digital face of a university.
+              </p>
+            </Link>
+          </article>
+          <article>
+            <Link
+              to="/work/cbu-website-redesign"
+              title="CBU marketing applications case study"
+            >
+              <StaticImage
+                src="../images/cbu-marketing-applications-min.jpg"
+                alt="Screenshot of CBU Marketing Applications web app"
+              />
+              <h3 className="mt-8">CBU Marketing Applications platform</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                A suite of web apps to support achieving marketing objectives.
+              </p>
+            </Link>
+          </article>
+        </div>
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2 pb-12">
+          <article>
+            <Link
+              to="/work/arousal-architecture"
+              title="Arousal Architecture Case study"
+            >
+              <StaticImage
+                src="../images/arousal-architecture-hero-2x-min.jpg"
+                alt="Arousal Architecture Assessment design screenshot"
+              />
+              <h3 className="mt-8">Arousal Architecture&trade; Assessment</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                Transforming a paper assessment to an online experience
+              </p>
+            </Link>
+          </article>
+          <article>
+            <Link
+              to="/work/how-much-oxalate"
+              title="How Much Oxalate case study"
+            >
+              <StaticImage
+                src="../images/how-much-oxalate-hero-2x-min.jpg"
+                alt="How Much Oxalate? screenshot"
+              />
+              <h3 className="mt-8">How Much Oxalate?</h3>
+              <p className="mt-2 text-gray-500 dark:text-white/80">
+                Finding oxalate content of known food and drink at ease.
+              </p>
+            </Link>
+          </article>
+        </div>
+      </section>
+    </section>
+    <section className="bg-darkNavy dark:bg-accent/40 py-12 w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="summary-statement dark:text-white text-dark-heading-text font-medium mb-4">
+          Interested in working together?
+        </h2>
+        <p className="text-white">
+          Got a design or development project you need help with? Let's chat and
+          see how I can help.
+        </p>
+        <Button to="/contact">Contact me</Button>
       </div>
-      <div className="work grid md:grid-cols-1 md:gap-8 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-        <div>
-          <Link
-            to="/work/matterport"
-            className="text-darkPurple dark:text-dark-heading-text"
-          >
-            <StaticImage
-              src="../images/matterport-thumb.jpg"
-              alt="Matterport logo"
-            />
-            <WorkCard projectName="Matterport" />
-          </Link>
-          <Skills skills="UX • UI • COACHING" />
-        </div>
-        <div>
-          <Link
-            to="/work/esri"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage src="../images/esri-thumb.jpg" alt="Esri logo" />
-            <WorkCard projectName="Esri" />
-          </Link>
-          <Skills skills="UX • STRATEGY • COACHING" />
-        </div>
-        <div>
-          <Link
-            to="/work/california-baptist-university"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage src="../images/cbu-thumb.jpg" alt="CBU logo" />
-            <WorkCard projectName="California Baptist University" />
-          </Link>
-          <Skills skills="UX/UI • STRATEGY  • PEOPLE MANAGEMENT • DEVELOPMENT" />
-        </div>
-      </div>
-      {/* <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
-          September 2019 &mdash; present
-        </span>
-        <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
-          <Link to="/work/esri" title="Esri">
-            Esri
-          </Link>
-        </p>
-        <p className="font-lora font-normal italic text-text text-sm md:text-lg">
-          I'm currently in a senior UX role at Esri where I focus on e-commerce
-          UX strategy.{' '}
-        </p>
-        <p className="mb-8">
-          <Link
-            to="/work/esri"
-            title="See work I've done at Esri"
-            className="font-worksans font-semibold text-sm md:text-base"
-          >
-            See work I've done at Esri
-          </Link>
-        </p>
-
-        <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
-          February 2012 &mdash; September 2019
-        </span>
-        <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
-          <Link to="/work/california-baptist-university">
-            California Baptist University
-          </Link>
-        </p>
-        <p className="font-lora font-normal italic text-text text-sm md:text-lg">
-          As Director of Web Applications Development, I led design and
-          engineering for enterprise applications. Prior to that, I held various
-          roles managing CBU's website design and development team.{' '}
-        </p>
-        <p className="mb-8">
-          <Link
-            to="/work/california-baptist-university"
-            title="See work I've done at CBU"
-            className="font-worksans font-semibold text-sm md:text-base"
-          >
-            See work I've done at CBU
-          </Link>
-        </p>
-        <span className="text-text dark:text-dark-text text-sm font-worksans font-semibold uppercase">
-          March 2009 &mdash; February 2012
-        </span>
-        <p className="text-heading-text text-xl md:text-2xl font-worksans font-semibold">
-          University of California at Riverside
-        </p>
-        <p className="font-lora font-normal italic text-text text-sm md:text-lg">
-          As a Web/UI Designer, I built websites for the Division of Student
-          Affairs. Prior to that, I was a Web Developer that built websites for
-          the Division of Finance and Business Operations.
-        </p>
-      </div> */}
-
-      <div className="mx-auto w-11/12 md:w-3/4 mt-8 mb-12">
-        <MiniTitleBlock title="Additional Projects" />
-      </div>
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
-        <div>
-          <Link
-            to="/work/how-much-oxalate"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage
-              src="../images/how-much-oxalate-thumb.jpg"
-              alt="Screenshot of How Much Oxalate website"
-            />
-            <WorkCard projectName="How Much Oxalate" />
-          </Link>
-          <Skills skills="UX • UI • CONTENT • DEVELOPMENT" />
-        </div>
-        <div>
-          <Link
-            to="/work/arousal-architecture"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage
-              src="../images/arousal-architecture-thumb.jpg"
-              alt="Screenshot of Arousal Architecture Assessment website"
-            />
-            <WorkCard projectName="Arousal Architecture&trade;" />
-          </Link>
-          <Skills skills="UX • UI • DEVELOPMENT" />
-        </div>
-      </div>
-
-      <div className="work grid md:grid-cols-2 md:gap-8 mx-auto w-11/12 md:w-3/4">
-        <div>
-          <Link
-            to="/work/cbu-website-redesign"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage
-              src="../images/cbu-website-redesign-thumb.jpg"
-              alt="Screenshot of CBU Website Redesign"
-            />
-            <WorkCard projectName="CBU Website Redesign" />
-          </Link>
-          <Skills skills="UX • UI • CONTENT • DEVELOPMENT" />
-        </div>
-        <div>
-          <Link
-            to="/work/cbu-marketing-applications"
-            className="text-heading-text dark:text-dark-heading-text"
-          >
-            <StaticImage
-              src="../images/cbu-marketing-applications-thumb.jpg"
-              alt="Screenshot of CBU Marketing Applications web app"
-            />
-            <WorkCard projectName="CBU Marketing Applications" />
-          </Link>
-          <Skills skills="UX • UI" />
-        </div>
-      </div>
-    </div>
+    </section>
   </Layout>
 );
 

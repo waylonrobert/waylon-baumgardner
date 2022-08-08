@@ -1,48 +1,26 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
-import { Link } from 'gatsby';
 import CurrentlyListening from './CurrentlyListening';
 import CurrentlyReading from './CurrentlyReading';
 import GitHubIcon from './GitHubIcon';
 import LinkedInIcon from './LinkedInIcon';
 import TwitterIcon from './TwitterIcon';
 
-const ListLink = (props) => (
-  <Link
-    className="font-worksans text-xs text-darkPurple underline"
-    to={props.to}
-    title={props.title}
-  >
-    {props.children}
-  </Link>
-);
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-british-racing-green mt-8 py-10">
-      <div className="grid md:grid-cols-3 2xl:grid-cols-4 md:gap-2 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-        <div className="col1">
+    <footer className="bg-accent/10 py-10">
+      <div className="grid grid-cols-1 max-w-7xl p-4 mx-auto md:p-8 md:grid-cols-5">
+        <div className="w-auto">
           <CurrentlyReading />
         </div>
-        <div className="col2">
+        <div className="w-auto">
           <CurrentlyListening />
         </div>
       </div>
-      {/* <div className="mx-auto w-3/4 mt-14">
-        <ul className="text-right">
-          <li className="inline-block mr-2">
-            <GitHubIcon fill="rgba(173,78,60,1)" />
-          </li>
-          <li className="inline-block mr-2">
-            <LinkedInIcon fill="rgba(173,78,60,1)" />
-          </li>
-          <li className="inline-block">
-            <TwitterIcon fill="rgba(173,78,60,1)" />
-          </li>
-        </ul>
-      </div> */}
-      <div className="grid md:grid-cols-2 md:gap-2 mx-auto w-11/12 mt-4 md:w-3/4 2xl:w-1/2 md:mt-14">
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
         <div className="col1 order-last md:order-first">
-          <span className="font-worksans text-xs leading-none text-darkPurple dark:text-white align-bottom">
+          <span className="font-defaultSans text-xs leading-none text-text dark:text-white align-bottom">
             Copyright &copy;{new Date().getFullYear()} Waylon Baumgardner. All
             rights reserved.
           </span>
@@ -60,19 +38,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        {/* <div className="col2 text-right">
-          <ListLink to="/work" title="Accessibility">
-            Accessibility
-          </ListLink>
-          {'  '}
-          <ListLink to="/writing" title="Colophon">
-            Colophon
-          </ListLink>
-          {'  '}
-          <ListLink to="/contact" title="RSS">
-            RSS
-          </ListLink>
-        </div> */}
       </div>
     </footer>
   );

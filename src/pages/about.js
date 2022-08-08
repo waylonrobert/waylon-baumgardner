@@ -3,68 +3,81 @@ import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import Testimonial from '../components/Testimonial';
 import TitleBlock from '../components/TitleBlock';
 
 export default function About() {
   return (
     <Layout>
       <SEO title="About" />
-      <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
         <TitleBlock
           pageTitle="About me"
           shortDescription="About pages are always the hardest, right?"
         />
 
-        <div className="mx-auto w-11/12 md:w-3/4 my-8">
+        <div className="mx-auto w-auto md:w-3/4 my-8 md:mb-16">
           <div className="float-left pr-4">
             <StaticImage
               src="../images/waylon-baumgardner-portrait.jpg"
               alt="Waylon Baumgardner"
-              width={250}
+              width={200}
             />
           </div>
-          <p className="mb-4">
-            Hi, my name is Waylon Baumgardner, and I'm a product designer, front-end
-            developer who knows enough to be dangerous, design educator, <a href="https://adplist.org/mentors/waylon-baumgardner" title="My ADPList mentor profile">mentor</a>, and <em>amateur</em>{' '}
-            violinist (<em>very</em> amateur) from and based out of Southern
-            California. I grew up in San Diego, and now reside somewhere in
-            between San Diego and LA.
-          </p>
-          <p>
-            I started my professional career as a web developer/designer. I
-            spent ten years in higher education where I held various web
-            development/design/leadership roles. I then shifted the focus of my
-            career entirely, pursuing my love of UX and UI design by joining Esri as a
-            Senior UX Designer. I now work on Matterport's design team in a senior product designer role focused on transactional web experiences.{' '}
-          </p>
-          <h2 className="mt-14 mb-8">What I Believe</h2>
-          <p>
-            I've documented some truths I personally believe in that shape and
-            influence how I work:
-          </p>
-          <ul className="mt-4 dark:text-dark-text">
-            <li>
-              Practice <em>empathy</em>; we're <em>all</em> dealing with{' '}
-              <em>something</em>
-            </li>
-            <li>
-              Good ideas can <em>(and do)</em> come from anyone and anywhere
-            </li>
-            <li>
-              Context, <em>not</em> content, is “king”
-            </li>
-            <li>
-              UX and UI design require <em>different</em> but complimentary
-              skills
-            </li>
-            <li>
-              Users <em>sometimes</em> need guidance
-            </li>
-          </ul>
+          <div className="mb-8">
+            <p className="mb-4">
+              Hi, my name is Waylon Baumgardner, and I'm a product designer,
+              front-end developer who knows enough to be dangerous, design
+              educator,{' '}
+              <a
+                href="https://adplist.org/mentors/waylon-baumgardner"
+                title="My ADPList mentor profile"
+              >
+                mentor
+              </a>
+              , and <em>amateur</em> violinist (<em>very</em> amateur) from and
+              based out of Southern California. I grew up in San Diego, and now
+              reside somewhere in between San Diego and LA.
+            </p>
+            <p>
+              I started my professional career as a web developer/designer. I
+              spent ten years in higher education where I held various web
+              development/design/leadership roles. I then shifted the focus of
+              my career entirely to full-time product design roles.{' '}
+            </p>
+          </div>
+        </div>
+        <div className="mx-auto w-auto md:w-3/4 my-8 md:mt-16">
+          <div className="mt-12">
+            <h2 className="mt-14 mb-8 text-center">What I believe</h2>
+            <p>
+              I've documented some truths I personally believe in that shape and
+              influence how I work:
+            </p>
+            <ul className="mt-4 dark:text-dark-text">
+              <li>
+                Practice <em>empathy</em>; we're <em>all</em> dealing with{' '}
+                <em>something</em>
+              </li>
+              <li>
+                Good ideas can <em>(and do)</em> come from anyone and anywhere
+              </li>
+              <li>
+                Context, <em>not</em> content, is “king”
+              </li>
+              <li>
+                UX and UI design require <em>different</em> but complimentary
+                skills
+              </li>
+              <li>
+                Users <em>sometimes</em> need guidance
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4 my-8">
           <div>
-            <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
+            <h2 className="uppercase font-defaultSans text-text font-semibold text-xs md:text-sm">
               My interests
             </h2>
             <ul className="about-interests py-1 md:py-4 dark:text-dark-text">
@@ -85,7 +98,7 @@ export default function About() {
             </ul>
           </div>
           <div>
-            <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm text-left">
+            <h2 className="uppercase font-defaultSans text-text font-semibold text-xs md:text-sm text-left">
               My knowledge areas
             </h2>
 
@@ -101,69 +114,30 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <h2 className="my-8 mx-auto w-11/12 md:w-3/4">
-          What People Say About Me
-        </h2>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-4 md:gap-16 mx-auto w-3/4 md:w-11/12">
-        <div>
-          <blockquote>
-            I really appreciated Waylon's help in creating my Arousal
-            Architecture assessment - from total scratch! I wasn't sure on what
-            I wanted but I explained to him my vision and from that he was able
-            to create a great tool that my clients use in our psychotherapy
-            work, and it's an awesome lead generator for my business too! He was
-            communicative and responsive to my needs and changes I wanted to
-            implement along the way. Thanks Waylon for bringing my life's work
-            to life!
-          </blockquote>
-          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
-            <em>
-              &mdash;Kayna Cassard MS, LFMT, Owner at Intuitive Sensuality
-            </em>
-          </p>
-        </div>
-        <div>
-          <blockquote>
-            Waylon is one of the brightest, most diligent and creative web
-            professionals I have had the pleasure of managing. His matches
-            strong web and CMS development skills and problem-solving abilities
-            with a burning desire for continuous learning and new challenges.
-            Waylon also demonstrates an exceptional commitment to customer
-            service and always goes above and beyond to deliver solutions that
-            delight his clients and makes users' lives better.
-          </blockquote>
-          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
-            <em>&mdash;Sean Dillingham, Product Design Manager at Honey</em>
-          </p>
-        </div>
-        <div>
-          <blockquote>
-            Waylon is very methodical in his approach when working with web
-            design and applications. He understands UI and UX from the users and
-            content administrators. He knows when to provide more information to
-            help end clients understand the process, so they feel comfortable
-            and confident. He is up to date with current industry standards.
-            Overall he just a great person to work with because he makes the
-            process easy.
-          </blockquote>
-          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
-            <em>
-              &mdash;Keith Castillo, Sr. Instructional Designer at Charter
-              College
-            </em>
-          </p>
-        </div>
-        <div>
-          <blockquote>
-          I had such an information-packed 30-minute interview prep session with Waylon. He is so articulate and understands exactly what I was curious to know or concerned about. He deciphers the intentions behind the most frequently asked questions and gave so many helpful tips on how to tie my interests with the company's goals while being authentically me.
-          </blockquote>
-          <p className="text-sm mt-2 text-darkPurple dark:text-dark-heading-text font-worksans font-medium">
-            <em>&mdash;Gaeun Karen Lee, UX designer and ADPList Mentee</em>
-          </p>
-        </div>
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="mb-8 text-center">What people have to say about me</h2>
       </div>
+      <section className="px-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-16 mx-auto">
+          <Testimonial
+            quote="Waylon rocks! I had the pleasure to work with him for a year or so at Matterport. He’s one of the kindest and friendliest people I’ve ever worked with. He’s got an exceptional work ethic and thoughtful approach to solving design and experience problems. He’s a great communicator with great technical chops — making him a wonderful collaborator with cross-functional partners."
+            author="Dave Lippman, Chief Design Officer at Matterport"
+          />
+          <Testimonial
+            quote="Waylon is an overall wonderful colleague and friend to work with. He is always honest with his feedback in a way that is helpful and methodical. When collaborating with other designers, he takes time to understand people's ideas and is always ready to make thoughtful recommendations of his own. We have worked on quite a few projects together throughout our time at Esri- from designing marketplace listing pages to designing a team site. Whenever I am stuck on a project, I know that I can ask Waylon for help and he is always willing to listen and ideate, even if the project has nothing to do with his day to day work. In short, Waylon's work is clean, organized, and meaningful- while also being accompanied by a great sense of humor."
+            author="Chloe L'Ecuyer, UX Designer at HP"
+          />
+          <Testimonial
+            quote="Waylon is one of the most compassionate, driven, and intelligent designers I have ever had the pleasure of working with. He thrives when faced with making complex and often difficult design decisions. Waylon leads the UX initiatives for eCommerce here at Esri. As such he designs for a host of buying situations, often with multiple levels of complexity and unique challenges. Additionally and on a more personal level, he is a compassionate listener. Who will give honest and authentic feedback, that is always aimed at making his team members better designers. I have come to him several times and has always provided me with great insights and actionable solutions."
+            author="Christian Fazio, Senior UX Designer at Kaiser-Permanante"
+          />
+          <Testimonial
+            quote="Waylon is a huge asset to any team, as someone who keeps true to traditional UX design principles, especially E-Commerce, while pushing the envelope to improve and challenge current user experiences. He is quick to listen to others, respond empathetically and articulate his decisions thoroughly to others who are of similar or different backgrounds. He takes the time to get to know who the users and stakeholders are with unwavering objectivity often reflected in his work. "
+            author="Jeanette Kao, Product Designer at Alaska Airlines"
+          />
+        </div>
+      </section>
     </Layout>
   );
 }

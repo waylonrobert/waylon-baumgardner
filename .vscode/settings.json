@@ -5,5 +5,5 @@
         "tailwindcss",
         "waylonrobert"
     ],
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
 }

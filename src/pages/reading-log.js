@@ -7,7 +7,7 @@ import TitleBlock from '../components/TitleBlock';
 // import SmallSeparator from '../components/smallSeparator';
 
 // const ListLink = (props) => (
-//   <li className="text-heading-text text-2xl font-worksans font-semibold my-4">
+//   <li className="text-heading-text text-2xl font-defaultSans font-semibold my-4">
 //     <Link to={props.to} className="underline">
 //       {props.children}
 //     </Link>
@@ -67,11 +67,11 @@ const ReadingLogPage = () => {
 
               {books.nodes.map((node) => (
                 <div className="mb-6">
-                  <p className="text-heading-text dark:text-dark-heading-text text-xl md:text-2xl font-worksans font-semibold">
+                  <p className="text-heading-text dark:text-dark-heading-text text-xl md:text-2xl font-defaultSans font-semibold">
                     {node.frontmatter.title}
                   </p>
 
-                  <p className="font-lora font-normal italic text-text dark:text-dark-text text-base md:text-lg">
+                  <p className="font-sourceSerifPro font-normal text-text dark:text-dark-text text-base md:text-lg">
                     {node.frontmatter.author}
                   </p>
                 </div>

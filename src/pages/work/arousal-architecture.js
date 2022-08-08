@@ -1,142 +1,154 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import TitleBlock from '../../components/TitleBlock';
+import Button from '../../components/Button';
 
-const ArousalArchitecturePage = () => (
+const ArousalArchitecturePageCaseStudy = () => (
   <Layout>
-    <SEO title="Arousal Architecture™️ Assessment Case Study – Work" />
-    <div className="m-12 mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-      <aside className="text-heading-text dark:text-dark-heading-text text-xs md:text-sm font-worksans font-semibold uppercase">
-        Case Study
-      </aside>
-      <TitleBlock
-        pageTitle="Arousal Architecture&trade; Assessment"
-        shortDescription="Arousal Architecture&trade; Assessment is a website that helps Kayna Cassard counsel her clients."
-        callToAction="View site"
-        callToActionTo="https://arousalarchitecture.com"
-        callToActionTitle="Arousal Architecture™️ Assessment website"
-      />
-
-      <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
+    <SEO title="Arousal Architecture™️ Assessment Case Study" />
+    <section className="mt-8 py-10 bg-accent/10 w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <TitleBlock
+          pageCategory="Case Study"
+          pageTitle="Arousal Architecture™️ assessment"
+        />
+        <h3 className="summary-statement text-gray-500 dark:text-white/80 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+          Transforming a paper assessment to an online experience
+        </h3>
         <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
-            My role
-          </h2>
-          <p className="text-base leading-tight">
-            UX/UI designer, front-end developer.
-          </p>
+          <StaticImage
+            src="../../images/arousal-architecture-hero-2x-min.jpg"
+            alt="Arousal Architecture Assessment design screenshot"
+            className="mb-4 border border-accent/20"
+            //   width={600}
+          />
         </div>
-        <div>
-          <h2 className="uppercase font-worksans text-heading-text font-semibold text-xs md:text-sm">
-            My methods
-          </h2>
-          <p className="text-base leading-tight">
-            Wireframes, prototypes, visual design, UX writing, and front-end
-            development (HTML/CSS/JS).
-          </p>
+
+        <div className="case-study grid grid-cols-1 gap-1 my-2 md:my-8 md:grid-cols-3 md:gap-8">
+          <div>
+            <div className="mb-6">
+              <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs mb-2 md:text-sm">
+                My role
+              </h2>
+              <p className="leading-tight">
+                Freelance product designer, front-end developer
+              </p>
+            </div>
+            <div className="mb-6">
+              <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs mb-2 md:text-sm">
+                My responsibilities
+              </h2>
+              <p className="leading-tight">
+                Product design, front-end development
+              </p>
+            </div>
+            <div className="mb-6">
+              <h2 className="uppercase font-defaultSans text-accent font-semibold text-xs mb-2 md:text-sm">
+                My methods
+              </h2>
+              <p className="leading-tight">
+                UX design, UI design, UX writing, front-end development
+              </p>
+            </div>
+          </div>
+          <div className="md:col-span-2">
+            <div className="my-6 md:pl-6">
+              <p>
+                Arousal Architecture™️ Assessment is the brainchild of Kayna
+                Cassard, a licensed Marriage and Family Therapist, Sex
+                Therapist, Pelvic Pain Relief Expert and Sexuality Specialist
+                and proprietor of Intuitive Sensuality, a sexual health and
+                wellness practice. The digital Arousal Architecture™️ Assessment
+                website aids Cassard in helping her clients engage in fulfilling
+                relationships with themselves and their partners.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="mx-auto w-11/12 md:w-3/4 2xl:w-1/2">
-      <div className="case-study-narrative mx-auto my-8 w-11/12 md:w-3/4">
-        <h2 className="mb-4 text-3xl md:text-4xl">Overview</h2>
+    </section>
 
-        <p>
-          Arousal Architecture™️ Assessment is the brainchild of{' '}
-          <a href="https://www.kaynacassard.com/" title="Kayna Cassard">
-            Kayna Cassard
-          </a>
-          , a licensed Marriage and Family Therapist, Sex Therapist, Pelvic Pain
-          Relief Expert and Sexuality Specialist and proprietor of Intuitive
-          Sensuality, a sexual health and wellness practice. The digital Arousal
-          Architecture™️ Assessment website aids Cassard in helping her clients
-          engage in fulfilling relationships with themselves and their partners.
+    <section className="py-10 bg-white dark:bg-dark-bg w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
+        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+          Closing the gap between analog and digital
+        </h3>
+
+        <p className="mx-auto md:w-3/4">
+          Kayna Cassard, a licensed Marriage and Family Therapist, Sex
+          Therapist, Pelvic Pain Relief Expert and Sexuality Specialist,
+          approached me about building an online version of her Arousal
+          Architecture™ Assessment. The assessment is one of many tools she uses
+          to help her clients learn how to liberate their sensuality, connect
+          more deeply with themselves and their partners, and ignite passion in
+          all areas of their lives.
         </p>
-
-        <h2 className="my-8 text-3xl md:text-4xl">Problem</h2>
-
-        <p>
-          <a href="https://www.kaynacassard.com/" title="Kayna Cassard">
-            Kayna Cassard
-          </a>
-          , a licensed Marriage and Family Therapist, Sex Therapist, Pelvic Pain
-          Relief Expert and Sexuality Specialist, approached me about building
-          an online version of her Arousal Architecture&trade; Assessment. The
-          assessment is one of many tools she uses to help her clients learn how
-          to liberate their sensuality, connect more deeply with themselves and
-          their partners, and ignite passion in all areas of their lives. At the
-          time, the assessment was an analog process where her clients completed
-          the assessment on paper, and Cassard manually calculated the
+        <p className="mx-auto md:w-3/4 mt-4">
+          At the time, the assessment was an analog process where her clients
+          completed the assessment on paper, and Cassard manually calculated the
           assessment results. Cassard wanted a digital version of the assessment
-          that served three purposes: 1) save time for her clients and herself;
-          2) empower her clients to complete the assessment ahead of sessions
-          and on <em>their</em> schedule; and 3) eliminate manually creating
-          assessment results.
+          that served multiple purposes:
         </p>
 
-        <h2 className="my-8 text-3xl md:text-4xl">Process</h2>
-        <p>For this project, I followed a three-phased approach:</p>
-        <ul>
-          <li>
-            <AnchorLink
-              to="/work/arousal-architecture#discovery"
-              title="Discovery"
-            >
-              Discovery
-            </AnchorLink>{' '}
-            &mdash; identified project scope and what to build
+        <ul className="keys list-none mx-auto mt-4 md:w-3/4 dark:text-white">
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
+            Preserve client session time for therapy
           </li>
-          <li>
-            <AnchorLink to="/work/arousal-architecture#design" title="Design">
-              Design
-            </AnchorLink>{' '}
-            &mdash; designed the UX (wireframes and simple prototype), designed
-            the UI (high fidelity designs)
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
+            Empower her clients to complete the assessment ahead of sessions, on
+            their own time, and from within the privacy of their home
           </li>
-          <li>
-            <AnchorLink
-              to="/work/arousal-architecture#development"
-              title="Development"
-            >
-              Development
-            </AnchorLink>{' '}
-            &mdash; built the site from scratch using open-source front-end web
-            development tools (no backend needed since, for privacy reasons, no
-            data is stored)
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
+            Eliminate manually creating assessment results, saving time for
+            client session prep
           </li>
         </ul>
-
-        <h3 id="discovery" className="my-4 text-2xl md:text-3xl">
-          Discovery
+      </div>
+    </section>
+    <section className="py-10 bg-accent/10 w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
+        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+          Making an engaging online assessment
         </h3>
-        <p>
+        <p className="mx-auto md:w-3/4 mt-4">
+          For this project, I followed a three-phased approach consisting of
+          discovery, design, and development phases.
+        </p>
+
+        <h4 className="my-8">Discovery</h4>
+        <p className="mx-auto md:w-3/4 mt-4">
           It was important to me that I understood how Cassard used the
           assessment to ensure that the completed project was useful. After
           several interviews with Cassard, I gained greater understanding in how
           she used the assessment and from there I was able to establish a scope
           of work. Then, I surveyed the landscape and performed a competitive
-          analysis. From there I identified three goals for the project based on
-          Cassard’s own goals from above:
+          analysis.
         </p>
-        <ul>
-          <li>
+        <p className="mx-auto md:w-3/4 mt-4">
+          From there I identified three goals for the project based on Cassard’s
+          own goals from above:
+        </p>
+        <ul className="keys list-none mx-auto mt-4 md:w-3/4 dark:text-white">
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
             Design an easy-to-use assessment that avoids user fatigue due to the
             quantity of questions asked (50)
           </li>
-          <li>
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
             Ensure assessment clients have access to their results
             post-completion (via a chart for quick summarization)
           </li>
-          <li>Further promote Cassard’s brand</li>
+          <li className="my-2 md:pl-8 before:content-['→'] before:mr-2 before:text-accent before:text-2xl before:align-middle dark:before:text-dark-heading-text">
+            Further promote Cassard’s brand and practice
+          </li>
         </ul>
-        <h3 id="design" className="my-4 text-2xl md:text-3xl">
-          Design
-        </h3>
-        <p>
+
+        <h4 className="my-8">Design</h4>
+        <p className="mx-auto md:w-3/4 mt-4">
           My next step was to create wireframes to help me identify how the
           experience might function. The assessment includes 50 questions, and
           because of the complexity of these questions, one of my top priorities
@@ -147,136 +159,161 @@ const ArousalArchitecturePage = () => (
           color and contrast to establish a sense of place during the question
           and answer portion of the assessment.
         </p>
-      </div>
-    </div>
-    <div className="w-11/12 md:w-full">
-      <div className="mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12 lg:w-1/2">
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                className="text-center"
-                src="../../images/arousal-architecture-start-desktop-wireframe.jpg"
-                alt="Arousal Architecture homepage wireframe"
-                width={600}
-              />
-              <p className="caption">
-                Arousal Architecture™️ homepage wireframe
-              </p>
-            </figure>
-          </div>
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                src="../../images/arousal-architecture-question-desktop-wireframe.jpg"
-                alt="Arousal Architecture question page wireframe"
-                width={600}
-              />
-              <p className="caption">
-                Arousal Architecture™️ question page wireframe
-              </p>
-            </figure>
-          </div>
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                src="../../images/arousal-architecture-results-desktop-wireframe.jpg"
-                alt="Arousal Architecture results page wireframe"
-                width={600}
-              />
-              <p className="caption">
-                Arousal Architecture™️ results page wireframe
-              </p>
-            </figure>
-          </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 mx-auto w-11/12 lg:w-1/2">
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                className="text-center"
-                src="../../images/arousal-architecture-start-desktop-ui.jpg"
-                alt="Arousal Architecture homepage UI"
-                width={600}
-              />
-              <p className="caption">Arousal Architecture&trade; homepage UI</p>
-            </figure>
-          </div>
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                src="../../images/arousal-architecture-question-desktop-ui.jpg"
-                alt="Arousal Architecture question page UI"
-                width={600}
-              />
-              <p className="caption">
-                Arousal Architecture&trade; question page UI
-              </p>
-            </figure>
-          </div>
-          <div className="mx-auto">
-            <figure>
-              <StaticImage
-                src="../../images/arousal-architecture-results-desktop-ui.jpg"
-                alt="Arousal Architecture results page UI"
-                width={600}
-              />
-              <p className="caption">
-                Arousal Architecture&trade; results page UI
-              </p>
-            </figure>
-          </div>
-        </div>
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-start-desktop-wireframe.jpg"
+            alt="Arousal Architecture Assessment homepage wireframe"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Homepage wireframe
+          </figcaption>
+        </figure>
 
-        <div className="mx-auto w-11/12 md:w-3/4">
-          <div className="case-study-narrative mx-auto my-8 mb-16 w-11/12 md:w-3/4 2xl:w-1/2">
-            <h3 id="development" className="my-4 text-2xl md:text-3xl">
-              Development
-            </h3>
-            <p>
-              Once designs were finalized and approved by Cassard, I went to
-              work actually building the website. Since there was limited need
-              for dynamic content, and no need for any kind of database backend
-              or results storage for user privacy, I decided to use a static
-              site generator with a flat file structure to maximize performance.
-              I converted the questions into a parsable data file, then went ton
-              work leveraging third-party open source libraries for the survey
-              component interaction and results chart generation, with some
-              extra bits sprinkled in for marketing automation that tied into
-              Cassard's existing MarTech stack.
-            </p>
-            <h2 className="my-8 text-3xl md:text-4xl">Reflection</h2>
-            <p>
-              This was an amazing project because it allowed me to not only
-              learn about a completely different world than I’m used to, but
-              also challenged me at all phases of this project. The design phase
-              required that I practice patience and really focus on the simple
-              mechanics of questionnaires/survey in order to maximize user
-              happiness. Similarly, the development phase challenged me in new
-              ways because I had never built something this complex before. In
-              future iterations, I’d love to do some testing to gauge how users
-              feel when taking the assessment as well as identify areas to
-              improve user happiness.
-            </p>
-          </div>
-          <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-            <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
-              <li className="md:inline-block">
-                <Link
-                  className="next-steps-left"
-                  to="/work"
-                  title="Back to my work"
-                >
-                  Back to my work
-                </Link>
-              </li>
-            </ul>
-          </div>
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-question-desktop-wireframe.jpg"
+            alt="Arousal Architecture Assessment question page wireframe"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Question page wireframe
+          </figcaption>
+        </figure>
+
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-results-desktop-wireframe.jpg"
+            alt="Arousal Architecture results page wireframe"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Results page wireframe
+          </figcaption>
+        </figure>
+
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-start-desktop-ui.jpg"
+            alt="Arousal Architecture homepage UI"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Homepage UI
+          </figcaption>
+        </figure>
+
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-question-desktop-ui.jpg"
+            alt="Arousal Architecture Assessment question page UI"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Question page UI
+          </figcaption>
+        </figure>
+
+        <figure className="mx-auto my-8 w-auto md:w-3/4 text-center">
+          <StaticImage
+            src="../../images/arousal-architecture-results-desktop-ui.jpg"
+            alt="Arousal Architecture Assessment results page UI"
+            className="my-6 border border-accent/20"
+            width={800}
+            // height={800}
+          />
+          <figcaption className="-mt-2 text-base text-accent dark:text-dark-heading-text italic font-defaultSans font-medium">
+            Results page UI
+          </figcaption>
+        </figure>
+
+        <h4 className="my-8">Development</h4>
+        <p className="mx-auto md:w-3/4 mt-4">
+          Once designs were finalized and approved by Cassard, I went to work
+          building the website. Since there was limited need for dynamic
+          content, and no need for any kind of database backend or storage (for
+          user privacy), I decided to use a static site generator with a flat
+          file structure to maximize performance.
+        </p>
+        <p className="mx-auto md:w-3/4 mt-4">
+          I converted the questions into a parsable data file, then went to work
+          leveraging third-party open source libraries for the survey component
+          interaction and results chart generation, with some extra bits
+          sprinkled in for marketing automation that tied back into Cassard's
+          existing MarTech stack.
+        </p>
+      </div>
+    </section>
+    <section className="py-10 bg-white dark:bg-dark-bg w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
+        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+          Achieving client happiness
+        </h3>
+        <p className="mx-auto md:w-3/4 mt-4">
+          Cassard was thrilled with the final result of this project, and has
+          since shared this has been an excellent addition to her toolchest in
+          her practice. The ability for Cassard's clients to complete this
+          survey on their own time and in private has fostered greater honesty
+          and communication during sessions.
+        </p>
+      </div>
+    </section>
+    <section className="py-10 bg-accent/10 w-full">
+      <div className="max-w-7xl p-4 mx-auto md:px-8">
+        <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
+        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+          The more I learn the more I don't know
+        </h3>
+        <p className="mx-auto md:w-3/4 mt-4">
+          This was an amazing project because it allowed me to not only learn
+          about a completely different world than I’m used to, but also
+          challenged me at all phases of this project. The design phase required
+          that I practice patience and really focus on the simple mechanics of
+          questionnaires/surveys in order to maximize user happiness. Similarly,
+          the development phase challenged me in new ways because I had never
+          built something this complex before. In future iterations, I’d love to
+          do some testing to gauge how users feel when taking the assessment as
+          well as identify areas to improve user happiness.
+        </p>
+      </div>
+    </section>
+
+    <section className="bg-darkNavy dark:bg-accent/40 py-8 w-full">
+      <div className="grid grid-cols-1 max-w-7xl mx-auto md:grid-cols-2">
+        <div className="max-w-7xl p-4 mx-auto md:px-8">
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/cbu-website-redesign">Next Project →</Link>
+          </aside>
+          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
+            CBU &mdash; redesigning the digital face of a university
+          </h3>
+          <Button to="/work/cbu-website-redesign">Read case study</Button>
+        </div>
+        <div className="max-w-7xl p-4 mx-auto md:px-8">
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/arousal-architecture">Next Project →</Link>
+          </aside>
+          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
+            How Much Oxalate &mdash; finding oxalate content of known food and
+            drink at ease
+          </h3>
+          <Button to="/work/how-much-oxalate">Read case study</Button>
         </div>
       </div>
-    </div>
+    </section>
   </Layout>
 );
 
-export default ArousalArchitecturePage;
+export default ArousalArchitecturePageCaseStudy;

@@ -19,7 +19,7 @@ const EsriWorkPage = () => (
 
       <div className="case-study grid grid-cols-2 gap-8 mx-auto w-11/12 md:w-3/4">
         <div>
-          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-text font-semibold text-xs md:text-sm">
             My role
           </h2>
           <p className="text-base leading-tight">
@@ -28,7 +28,7 @@ const EsriWorkPage = () => (
           </p>
         </div>
         <div>
-          <h2 className="uppercase font-worksans text-darkPurple font-semibold text-xs md:text-sm">
+          <h2 className="uppercase font-defaultSans text-text font-semibold text-xs md:text-sm">
             My methods
           </h2>
           <p className="text-base leading-tight">
@@ -155,7 +155,7 @@ const EsriWorkPage = () => (
               >
                 <button
                   type="button"
-                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-defaultSans uppercase"
                 >
                   View Live Page
                 </button>
@@ -184,7 +184,7 @@ const EsriWorkPage = () => (
               >
                 <button
                   type="button"
-                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-defaultSans uppercase"
                 >
                   View Live Page
                 </button>
@@ -299,7 +299,7 @@ const EsriWorkPage = () => (
               src={EsriCartFlyoutGif}
               alt="Cart flyout animted GIF"
             />
-            <p className="caption mt-2 mb-2 text-sm font-worksans font-medium text-heading-text dark:text-dark-heading-text text-center">
+            <p className="caption mt-2 mb-2 text-sm font-defaultSans font-medium text-heading-text dark:text-dark-heading-text text-center">
               Cart flyout &mdash; animated GIF
             </p>
           </figure>
@@ -312,7 +312,7 @@ const EsriWorkPage = () => (
             >
               <button
                 type="button"
-                className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-defaultSans uppercase"
               >
                 View Example Live Page
               </button>
@@ -378,7 +378,7 @@ const EsriWorkPage = () => (
               >
                 <button
                   type="button"
-                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-worksans uppercase"
+                  className="bg-heading-text dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-sm font-defaultSans uppercase"
                 >
                   View Live Page
                 </button>
@@ -387,7 +387,7 @@ const EsriWorkPage = () => (
           </figure>
         </div>
         <div className="next-steps mx-auto my-8 mb-16 w-11/12 md:w-3/4">
-          <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-worksans font-semibold 2xl:text-center">
+          <ul className="list-none text-heading-text dark:text-dark-heading-text text-base md:text-xl font-defaultSans font-semibold 2xl:text-center">
             <li className="md:inline-block">
               <Link
                 className="next-steps-left"

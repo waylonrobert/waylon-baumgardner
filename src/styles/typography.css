@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100;
+    src: url('../fonts/default-sans/DefaultSans-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 100;
+    src: url('../fonts/default-sans/DefaultSans-ThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../fonts/default-sans/DefaultSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 300;
+    src: url('../fonts/default-sans/DefaultSans-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/default-sans/DefaultSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/default-sans/DefaultSans-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('../fonts/default-sans/DefaultSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 500;
+    src: url('../fonts/default-sans/DefaultSans-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../fonts/default-sans/DefaultSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../fonts/default-sans/DefaultSans-SemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/default-sans/DefaultSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Default Sans';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/default-sans/DefaultSans-BoldItalic.woff2') format('woff2');
+}
