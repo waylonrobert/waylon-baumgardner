@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content`,
+        path: `${__dirname}/pages`,
         ignore: process.env.NODE_ENV === `production` && [`**/pages/archives`], // any file in this directory gets ignored on build
       },
     },
