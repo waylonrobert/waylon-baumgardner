@@ -306,10 +306,10 @@ const ArousalArchitecturePageCaseStudy = () => (
             <Link to="/work/arousal-architecture">Next Project →</Link>
           </aside>
           <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
-            How Much Oxalate Architecture&trade; &mdash; finding oxalate content
-            of known food and drink at ease
+            How Much Oxalate &mdash; finding oxalate content of known food and
+            drink at ease
           </h3>
-          <Button to="/work/arousal-architecture">Read case study</Button>
+          <Button to="/work/how-much-oxalate">Read case study</Button>
         </div>
       </div>
     </section>

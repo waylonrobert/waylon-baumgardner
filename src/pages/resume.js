@@ -17,9 +17,13 @@ export default function Resume() {
           href="WaylonBaumgardnerResume.pdf"
           type="button"
           title="Download Waylon Baumgardner resume in PDF format"
-          className="cta bg-accent hover:after:content-['→'] dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 text-base font-defaultSans mt-6 mb-12"
         >
-          <button type="button">Download my resume (PDF)</button>
+          <button
+            type="button"
+            className="cta bg-accent hover:after:content-['→'] dark:bg-dark-heading-text text-white dark:text-black py-2 px-4 mt-6 text-base font-defaultSans"
+          >
+            Download my resume (PDF)
+          </button>
         </a>
 
         <div className="mx-auto grid grid-cols-3 gap-12 w-full">
