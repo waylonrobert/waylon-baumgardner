@@ -15,7 +15,7 @@ const ArousalArchitecturePageCaseStudy = () => (
           pageCategory="Case Study"
           pageTitle="Arousal Architecture™️ assessment"
         />
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+        <h3 className="summary-statement text-text dark:text-white/80 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
           Transforming a paper assessment to an online experience
         </h3>
         <div>
@@ -74,7 +74,7 @@ const ArousalArchitecturePageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Closing the gap between analog and digital
         </h3>
 
@@ -112,7 +112,7 @@ const ArousalArchitecturePageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
-        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Making an engaging online assessment
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -258,7 +258,7 @@ const ArousalArchitecturePageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Achieving client happiness
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -273,7 +273,7 @@ const ArousalArchitecturePageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           The more I learn the more I don't know
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">

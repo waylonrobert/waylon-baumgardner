@@ -14,7 +14,7 @@ export default function Resume() {
         />
 
         <a
-          href="WaylonBaumgardnerResume.pdf"
+          href="WaylonBaumgardnerManagerResume.pdf"
           type="button"
           title="Download Waylon Baumgardner resume in PDF format"
           className="mb-8"
@@ -26,10 +26,10 @@ export default function Resume() {
             Download my resume (PDF)
           </button>
         </a>
-
-        <div className="mx-auto grid grid-cols-3 gap-12 w-full">
-          <div className="col-span-2">
-            <h2>Professional Experience</h2>
+        {/* //todo: fix
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
+          <div className="col-span-1 md:col-span-2">
+            <h2>Professional experience</h2>
             <section className="my-8">
               <h3 className="mt-2 font-semibold text-text text-base">
                 Senior Product Designer
@@ -38,18 +38,44 @@ export default function Resume() {
                 Matterport
               </h4>
               <h5 className="mt-1 italic text-base dark:text-dark-text">
-                Aug. 2021 &ndash; Present
+                08/21 &ndash; 08/22
               </h5>
-              <p className="font-defaultSans my-2 text-base">
-                I led the design vision and helped set design direction for
-                e-commerce. I designed new features and redesigned existing
-                features to increase purchase conversion and simplify checkout.
-                I presented design work. I built design prototypes. I
-                collaborated with cross-functional partners in product,
-                marketing, and engineering. I participated in planning and
-                conducting user research. I also coached junior product
-                designers.
-              </p>
+              <ul id="f3b7fe53-8268-4895-94d3-61f5a0bc8782" className="list">
+                <li>
+                  Led design vision and set design direction for the e-commerce
+                  design product
+                </li>
+              </ul>
+              <ul id="571a8c5f-99e0-4fc5-be7a-74cd5e4b4a8c" className="list">
+                <li>
+                  Designed features to increase purchase conversion and simplify
+                  the checkout UX on both mobile and desktop for varying
+                  customer personas including enterprise
+                </li>
+              </ul>
+              <ul id="6314a3d2-5a6d-42f1-aa0e-e141edf7c8c1" className="list">
+                <li>
+                  Established relationships with cross-functional partners in
+                  product, marketing, and engineering to launch new and improved
+                  e-commerce features
+                </li>
+              </ul>
+              <ul id="601754d7-88c5-414e-8e54-94dc4a510037" className="list">
+                <li>
+                  Planned and conducted user research to make informed design
+                  decisions
+                </li>
+              </ul>
+              <ul id="b0fe27c1-02af-4200-a6be-847d951d7fc8" className="list">
+                <li>
+                  Participated in weekly design team critiques and regularly
+                  gave feedback to other designers while also presenting my own
+                  designs for feedback{' '}
+                </li>
+              </ul>
+              <ul id="d6af3ca0-b913-4740-9a94-0f39d9b8dc51" className="list">
+                <li>Coached junior product designers</li>
+              </ul>
             </section>
             <section className="my-8">
               <h3 className="mt-2 font-semibold text-text text-base">
@@ -327,7 +353,7 @@ export default function Resume() {
               </p>
             </aside>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

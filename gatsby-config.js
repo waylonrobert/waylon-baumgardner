@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: 'Waylon Baumgardner | Designer, leader, educator',
-    description: `A designer, leader, and educator based in Southern California.`,
+    description: `I’m a seasoned designer with over a decade of design, leadership, and development experience.`,
     twitter: 'waylonrobert',
   },
   plugins: [
@@ -48,13 +48,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages`,
-        ignore: process.env.NODE_ENV === `production` && [`**/archives`], // any file in this directory gets ignored on build
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/pages`,
+    //     ignore: process.env.NODE_ENV === `production` && [`**/archives`], // any file in this directory gets ignored on build
+    //   },
+    // },
     {
       resolve: `gatsby-source-spotify`,
       options: {
@@ -71,7 +71,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/avatar.svg`, // This path is relative to the root of the site.
+        icon: `src/images/avatar.svg`, // This path is relative to the root of the site. Generates favicons
       },
     },
     {

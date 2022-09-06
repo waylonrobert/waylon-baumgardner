@@ -14,7 +14,7 @@ const EsriCartFlyoutCaseStudy = () => (
     <section className="mt-8 py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <TitleBlock pageCategory="Case Study" pageTitle="Esri cart flyout" />
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
           Integrating a familiar e-commerce pattern
         </h3>
         <div>
@@ -77,7 +77,7 @@ const EsriCartFlyoutCaseStudy = () => (
     <section className="py-10 bg-white  dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Communicating information to customers and helping them make decisions
         </h3>
 
@@ -98,7 +98,7 @@ const EsriCartFlyoutCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
-        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Balancing business and user needs to reduce friction in the checkout
           process
         </h3>
@@ -303,7 +303,7 @@ const EsriCartFlyoutCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Evaluated success and opportunities to improve
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -331,7 +331,7 @@ const EsriCartFlyoutCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Incorporate user research for next iterations
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">

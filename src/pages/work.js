@@ -24,7 +24,7 @@ const WorkPage = () => (
     <section className="max-w-7xl p-4 mx-auto md:px-8">
       <TitleBlock
         pageTitle="My work"
-        shortDescription="I work on a variety of projects that combine elements of design, development, and content to form engaging user experiences."
+        shortDescription="I've worked on a variety of projects that combine elements of design, development, and content to form engaging user experiences."
       />
     </section>
     <section className="mt-8 py-8 bg-accent/10 w-full">

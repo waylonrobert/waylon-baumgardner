@@ -15,7 +15,7 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
           pageCategory="Case Study"
           pageTitle="CBU website redesign"
         />
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
           Redesigning the digital face of a university
         </h3>
         <div>
@@ -82,7 +82,7 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Making a better future student website experience
         </h3>
 
@@ -103,7 +103,7 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
-        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Limited time and resources, but a worthy challenge
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -341,7 +341,7 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Practicing user-centered design and strengthening cross-functional
           collab
         </h3>
@@ -369,7 +369,7 @@ const CbuWebsiteRedesignPageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           More user research and design iteration
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
