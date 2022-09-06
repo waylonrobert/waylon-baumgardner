@@ -15,7 +15,7 @@ const HowMuchOxalatePageCaseStudy = () => (
           pageCategory="Case Study / Personal"
           pageTitle="How Much Oxalate?"
         />
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
           Finding oxalate content of known food and drink at ease
         </h3>
         <div>
@@ -72,7 +72,7 @@ const HowMuchOxalatePageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Decreasing oxalate to help prevent forming calcium oxalate kidney
           stones
         </h3>
@@ -103,7 +103,7 @@ const HowMuchOxalatePageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
-        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Creating something more useful than a spreadsheet
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -281,7 +281,7 @@ const HowMuchOxalatePageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Solid foundation for future improvements
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -299,7 +299,7 @@ const HowMuchOxalatePageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Side projects teach me a little about a lot
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">

@@ -15,7 +15,7 @@ const CbuMarketingAppPageCaseStudy = () => (
           pageCategory="Case Study"
           pageTitle="CBU Marketing Applications"
         />
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-4xl mb-8">
           A suite of web apps to support achieving marketing objectives
         </h3>
         <div>
@@ -82,7 +82,7 @@ const CbuMarketingAppPageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Context</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           High demand, low efficiencies
         </h3>
 
@@ -101,7 +101,7 @@ const CbuMarketingAppPageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Process</h2>
-        <h3 className="text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Uniting different functions in a single place
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -215,7 +215,7 @@ const CbuMarketingAppPageCaseStudy = () => (
     <section className="py-10 bg-white dark:bg-dark-bg w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Outcomes</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Reducing the task-switching
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">
@@ -241,7 +241,7 @@ const CbuMarketingAppPageCaseStudy = () => (
     <section className="py-10 bg-accent/10 w-full">
       <div className="max-w-7xl p-4 mx-auto md:px-8">
         <h2 className="mb-4 dark:text-dark-heading-text">Reflection</h2>
-        <h3 className="summary-statement text-gray-500 dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
+        <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Creating a custom solution together yields positive results
         </h3>
         <p className="mx-auto md:w-3/4 mt-4">

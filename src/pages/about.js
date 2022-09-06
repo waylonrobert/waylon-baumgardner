@@ -115,29 +115,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl p-4 mx-auto md:px-8">
-        <h2 className="mb-8 text-center">What people have to say about me</h2>
-      </div>
-      <section className="px-8 mb-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-16 mx-auto">
-          <Testimonial
-            quote="Waylon rocks! I had the pleasure to work with him for a year or so at Matterport. He’s one of the kindest and friendliest people I’ve ever worked with. He’s got an exceptional work ethic and thoughtful approach to solving design and experience problems. He’s a great communicator with great technical chops — making him a wonderful collaborator with cross-functional partners."
-            author="Dave Lippman, Chief Design Officer at Matterport"
-          />
-          <Testimonial
-            quote="Waylon is an overall wonderful colleague and friend to work with. He is always honest with his feedback in a way that is helpful and methodical. When collaborating with other designers, he takes time to understand people's ideas and is always ready to make thoughtful recommendations of his own. We have worked on quite a few projects together throughout our time at Esri- from designing marketplace listing pages to designing a team site. Whenever I am stuck on a project, I know that I can ask Waylon for help and he is always willing to listen and ideate, even if the project has nothing to do with his day to day work. In short, Waylon's work is clean, organized, and meaningful- while also being accompanied by a great sense of humor."
-            author="Chloe L'Ecuyer, UX Designer at HP"
-          />
-          <Testimonial
-            quote="Waylon is one of the most compassionate, driven, and intelligent designers I have ever had the pleasure of working with. He thrives when faced with making complex and often difficult design decisions. Waylon leads the UX initiatives for eCommerce here at Esri. As such he designs for a host of buying situations, often with multiple levels of complexity and unique challenges. Additionally and on a more personal level, he is a compassionate listener. Who will give honest and authentic feedback, that is always aimed at making his team members better designers. I have come to him several times and has always provided me with great insights and actionable solutions."
-            author="Christian Fazio, Senior UX Designer at Kaiser-Permanante"
-          />
-          <Testimonial
-            quote="Waylon is a huge asset to any team, as someone who keeps true to traditional UX design principles, especially E-Commerce, while pushing the envelope to improve and challenge current user experiences. He is quick to listen to others, respond empathetically and articulate his decisions thoroughly to others who are of similar or different backgrounds. He takes the time to get to know who the users and stakeholders are with unwavering objectivity often reflected in his work. "
-            author="Jeanette Kao, Product Designer at Alaska Airlines"
-          />
-        </div>
-      </section>
     </Layout>
   );
 }
