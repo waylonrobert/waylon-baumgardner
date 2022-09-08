@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "_publish": "npm run build && npm run _encrypt",
-    "_encrypt": "find ./work -type f -name '*.html' -exec staticrypt {} ${ENV.SITE_PASSWORD} -o {} \\;"
+    "_encrypt": "find ./work -type f -name '*.html' -exec staticrypt {} password -o {} \\;"
   },
   "eslintConfig": {
     "extends": [
