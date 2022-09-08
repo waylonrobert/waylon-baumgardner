@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "_publish": "npm run build && npm run encrypt",
+    "_publish": "npm run build && npm run _encrypt",
     "_encrypt": "find ./public/work -type f -name '*.html' -exec staticrypt {} ${ENV.SITE_PASSWORD} -o {} \\;"
   },
   "eslintConfig": {
