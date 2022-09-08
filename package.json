@@ -52,6 +52,7 @@
     "react": "*17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "staticrypt": "^2.1.1",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
