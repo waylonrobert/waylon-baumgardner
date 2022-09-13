@@ -86,14 +86,14 @@ const MatterportProductPageCaseStudy = () => (
             Current product detail experience
           </figcaption>
         </figure>
-        <p className="mx-auto md:w-3/4">
+        <p className="mx-auto mt-8 md:w-3/4">
           A critical piece of most e-commerce strategies, product pages are
           well-known to help increase buyer awareness and foster greater
           purchase conversion. Matterport's existing e-commerce platform
           strategy was focused on getting the customer through the purchase flow
           as quickly as possible and lacked product detail pages.
         </p>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           The current design adopted a product details modal rather than a
           product details page. This meant that important details customers
           needed to make purchase decisions were missing, which created an
@@ -109,14 +109,14 @@ const MatterportProductPageCaseStudy = () => (
         <h3 className="text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           Understanding user needs to create effective solutions
         </h3>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           Matterport's e-commerce business strategy broadly focused on actions
           to help customers complete e-commerce transactions. To provide design
           support for this strategy, I followed three design phases: research,
           discovery, and design.
         </p>
         <h4 className="my-8">Research</h4>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           To help understand which areas to focus on, I worked with Matterport's
           UX research team to design and moderate user interviews. Over the
           course of two weeks, we interviewed 10 customers and synthesized these
@@ -149,7 +149,7 @@ const MatterportProductPageCaseStudy = () => (
           experience.
         </p>
         <h4 className="my-8">Discovery</h4>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           Equipped with research results, I went about investigating how other
           e-commerce sites use product detail pages (or if they followed a
           similar strategy to Matterport and didn't use them). As part of this
@@ -251,7 +251,7 @@ const MatterportProductPageCaseStudy = () => (
           Practicing user-centered design and strengthening cross-functional
           collab
         </h3>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           At time of writing this case study, this design has yet to ship.
           However, some positive outcomes were achieved with this project:
         </p>
@@ -278,7 +278,7 @@ const MatterportProductPageCaseStudy = () => (
         <h3 className="summary-statement text-text dark:text-white/80 font-medium font-sourceSerifPro text-3xl mb-9">
           More user research and design iteration
         </h3>
-        <p className="mx-auto md:w-3/4 mt-4">
+        <p className="mx-auto md:w-3/4 mt-8">
           While I'm satisfied with the design process for this project, I would
           have liked a larger sample size in the earlier user research work. I
           also want to test the design with users to gauge whether or not it's
@@ -293,14 +293,26 @@ const MatterportProductPageCaseStudy = () => (
     </section>
 
     <section className="bg-darkNavy dark:bg-accent/40 py-8 w-full">
-      <div className="max-w-7xl p-4 mx-auto md:px-8">
-        <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
-          <Link to="/work/esri-cart-flyout">Next Project →</Link>
-        </aside>
-        <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
-          Esri &mdash; integrating a familiar e-commerce pattern
-        </h3>
-        <Button to="/work/esri-cart-flyout">Read case study</Button>
+      <div className="grid grid-cols-1 max-w-7xl mx-auto md:grid-cols-2">
+        <div className="max-w-7xl p-4 mx-auto md:px-8">
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/matterport-product-page">← Previous Project</Link>
+          </aside>
+          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
+            University of Redlands web design class &mdash; teaching web design
+            to a new generation of students using Figma
+          </h3>
+          <Button to="/work/matterport-product-page">Read case study</Button>
+        </div>
+        <div className="max-w-7xl p-4 mx-auto md:px-8">
+          <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
+            <Link to="/work/esri-cart-flyout">Next Project →</Link>
+          </aside>
+          <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
+            Esri cart flyout &mdash; integrating a familiar e-commerce pattern
+          </h3>
+          <Button to="/work/esri-cart-flyout">Read case study</Button>
+        </div>
       </div>
     </section>
   </Layout>

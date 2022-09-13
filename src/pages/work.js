@@ -32,6 +32,22 @@ const WorkPage = () => (
         <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
           <article>
             <Link
+              to="/work/redlands-web-design-class"
+              title="University of Redlands web design class case study"
+              className="hover:text-red-700"
+            >
+              <StaticImage
+                src="../images/redlands-web-design-min.jpg"
+                alt="Screenshot of University of Redlands web design class Figma workspace"
+              />
+              <h3 className="mt-8">University of Redlands web design class</h3>
+              <p className="mt-2 text-text dark:text-white/80">
+                Teaching web design to a new generation of students using Figma.
+              </p>
+            </Link>
+          </article>
+          <article>
+            <Link
               to="/work/matterport-product-page"
               title="Matterport product page case study"
               className="hover:text-red-700"
@@ -41,11 +57,15 @@ const WorkPage = () => (
                 alt="Screenshot of Matterport product page redesign"
               />
               <h3 className="mt-8">Matterport product page</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 Elevating product details to improve the purchase experience.
               </p>
             </Link>
           </article>
+        </div>
+      </section>
+      <section className="max-w-7xl p-4 mx-auto md:px-8">
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
           <article>
             <Link
               to="/work/esri-cart-flyout"
@@ -57,13 +77,11 @@ const WorkPage = () => (
                 alt="Screenshot of Esri cart flyout"
               />
               <h3 className="mt-8">Esri cart flyout</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 Integrating a familiar e-commerce pattern.
               </p>
             </Link>
           </article>
-        </div>
-        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
           <article>
             <Link
               to="/work/cbu-website-redesign"
@@ -74,11 +92,15 @@ const WorkPage = () => (
                 alt="Screenshot of CBU Website Redesign"
               />
               <h3 className="mt-8">CBU website</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 Redesigning the digital face of a university.
               </p>
             </Link>
           </article>
+        </div>
+      </section>
+      <section className="max-w-7xl p-4 mx-auto md:px-8">
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
           <article>
             <Link
               to="/work/cbu-website-redesign"
@@ -89,13 +111,11 @@ const WorkPage = () => (
                 alt="Screenshot of CBU Marketing Applications web app"
               />
               <h3 className="mt-8">CBU Marketing Applications platform</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 A suite of web apps to support achieving marketing objectives.
               </p>
             </Link>
           </article>
-        </div>
-        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2 pb-12">
           <article>
             <Link
               to="/work/arousal-architecture"
@@ -106,11 +126,15 @@ const WorkPage = () => (
                 alt="Arousal Architecture Assessment design screenshot"
               />
               <h3 className="mt-8">Arousal Architecture&trade; Assessment</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 Transforming a paper assessment to an online experience
               </p>
             </Link>
           </article>
+        </div>
+      </section>
+      <section className="max-w-7xl p-4 mx-auto md:px-8">
+        <div className="grid grid-cols-1 gap-16 mt-16 md:grid-cols-2">
           <article>
             <Link
               to="/work/how-much-oxalate"
@@ -121,7 +145,7 @@ const WorkPage = () => (
                 alt="How Much Oxalate? screenshot"
               />
               <h3 className="mt-8">How Much Oxalate?</h3>
-              <p className="mt-2 text-gray-500 dark:text-white/80">
+              <p className="mt-2 text-text dark:text-white/80">
                 Finding oxalate content of known food and drink at ease.
               </p>
             </Link>
