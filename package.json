@@ -12,7 +12,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "_publish": "npm run build && npm run _encrypt",
+    "_encrypt": "find ./public/work -type f -name '*.html' -exec npx staticrypt {} password -o {} \\;"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +52,7 @@
     "react": "*17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "staticrypt": "^2.1.1",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
