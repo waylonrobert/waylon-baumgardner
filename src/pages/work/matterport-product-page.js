@@ -296,13 +296,13 @@ const MatterportProductPageCaseStudy = () => (
       <div className="grid grid-cols-1 max-w-7xl mx-auto md:grid-cols-2">
         <div className="max-w-7xl p-4 mx-auto md:px-8">
           <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
-            <Link to="/work/matterport-product-page">← Previous Project</Link>
+            <Link to="/work/redlands-web-design-class">← Previous Project</Link>
           </aside>
           <h3 className="summary-statement dark:text-white text-white font-medium font-sourceSerifPro text-3xl ">
             University of Redlands web design class &mdash; teaching web design
             to a new generation of students using Figma
           </h3>
-          <Button to="/work/matterport-product-page">Read case study</Button>
+          <Button to="/work/redlands-web-design-class">Read case study</Button>
         </div>
         <div className="max-w-7xl p-4 mx-auto md:px-8">
           <aside className="date text-dark-heading-text dark:text-dark-heading-text text-sm font-defaultSans font-semibold uppercase mb-2">
