@@ -4,9 +4,9 @@
 
 @layer base {
 
-  html {
+  /* html {
     @apply scroll-smooth;
-  }
+  } */
   body {
     @apply font-sourceSerifPro text-xl bg-bg;
 }
