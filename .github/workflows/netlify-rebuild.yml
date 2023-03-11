@@ -1,5 +1,6 @@
 name: Trigger Netlify Build at Midnight
 on:
+  workflow_dispatch:
   schedule:
     # Every day at midnight PDT - default TZ is UTC
     - cron: '0 7 * * *'
